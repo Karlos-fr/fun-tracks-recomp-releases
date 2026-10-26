@@ -29,6 +29,5 @@ First alpha release.
 - 4:3 picture only (black borders on wide screens).
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
-- Windows: the executable is not signed (SmartScreen warning on first launch).
 
 [0.1.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.1.0-alpha
