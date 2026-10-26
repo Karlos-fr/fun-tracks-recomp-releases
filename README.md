@@ -7,7 +7,7 @@ canyons. This project rebuilds the original Windows game from its decompiled C c
 natively on today's systems.
 
 This repository only hosts the **releases** (Windows 64-bit and Android). Current version:
-**alpha** — expect bugs.
+**alpha** — expect bugs. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 
 ## You need the original game
 
