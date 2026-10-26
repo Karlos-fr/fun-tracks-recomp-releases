@@ -2,6 +2,15 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Fixed
+
+- 3D renderer, Snake Island: banners and flags no longer flicker, vanish too early or show their
+  texture mirrored; the race HUD (lap times, gauges) is drawn properly over the water.
+- Car physics now compute exactly the same on every platform (one math function still came from
+  each system's C library and could differ in the last digit during long races).
+
 ## [0.1.0-alpha] — 2026-10-26
 
 First alpha release.
