@@ -21,6 +21,12 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - New ASPECT line in the graphics options: WIDE or 4:3 for the 3D picture
   (`format = large` or `4:3`).
 - Menu pages too tall for the screen now scroll, with arrows above and below.
+- Live demo behind the menus (3D only): instead of the original recorded video, a real race on
+  Moosejaw Falls (Canada) driven by six AI cars, without HUD, filmed with changing camera shots
+  (crane, chase, front, high, orbit) like the original demo; the team credits still scroll over
+  it. A new race starts when one ends.
+- New LIVE DEMO line in the graphics options (ON or OFF, greyed out in software), saved in
+  `fun_tracks_recomp.ini` (`demo = oui` or `non`).
 
 ### Changed
 
@@ -29,9 +35,15 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - In 3D, races always use the high-resolution interface layout (sharper HUD); the keypad + and −
   keys no longer change the resolution there. The resolution setting still applies to the
   software renderer.
+- Menus keep the size they have at the game resolution, like the pause menu: in 3D they take the
+  middle of the screen with the live demo all around; in software they follow the chosen
+  resolution.
+- The game keeps running when its window loses focus (it used to freeze).
 
 ### Fixed
 
+- 3D renderer: a crash that could happen when leaving a race back to the main menu.
+- Menu scroll arrows no longer show a blue box around them.
 - Results screen: the "play this track again?" question showed the wrong text in languages other
   than English.
 - 3D renderer, Snake Island: banners and flags no longer flicker, vanish too early or show their
