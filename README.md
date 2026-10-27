@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="images/trailer.webm"><img src="images/trailer.jpg" alt="Fun Tracks Recomp — one-minute video" width="760" /></a>
+  <a href="images/trailer.webm"><img src="[images/trailer.jpg](https://github.com/user-attachments/assets/8c41af54-9f3b-44e0-af5b-05ec92f7762c)" alt="Fun Tracks Recomp — one-minute video" width="760" /></a>
 </p>
 
 # Fun Tracks — recompiled
