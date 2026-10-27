@@ -16,9 +16,7 @@
   <a href="README.fr.md"><img src="../images/flags/flag-fr.svg" alt="" width="18" height="12" /> Français</a>
 </p>
 
-<p align="center">
-  <a href="../images/trailer.webm"><img src="../images/trailer.jpg" alt="Fun Tracks Recomp — vidéo d'une minute" width="760" /></a>
-</p>
+https://github.com/user-attachments/assets/8c41af54-9f3b-44e0-af5b-05ec92f7762c
 
 # Fun Tracks — recompilé
 
