@@ -4,8 +4,18 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ## [Unreleased] — next alpha
 
+### Added
+
+- The game's six built-in languages are now available: English, German, Italian, Spanish, Swedish
+  and French (0.1.0-alpha was French only). The game starts in the system language, or in English
+  if it is not one of them.
+- New LANGUAGE line in the game options page (AUTO or one of the six languages), applied at once
+  and saved in `fun_tracks_recomp.ini` (`langue = auto`, `en`, `de`, `it`, `es`, `sv` or `fr`).
+
 ### Fixed
 
+- Results screen: the "play this track again?" question showed the wrong text in languages other
+  than English.
 - 3D renderer, Snake Island: banners and flags no longer flicker, vanish too early or show their
   texture mirrored; the race HUD (lap times, gauges) is drawn properly over the water.
 - Car physics now compute exactly the same on every platform (one math function still came from
