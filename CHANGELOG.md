@@ -11,6 +11,24 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   if it is not one of them.
 - New LANGUAGE line in the game options page (AUTO or one of the six languages), applied at once
   and saved in `fun_tracks_recomp.ini` (`langue = auto`, `en`, `de`, `it`, `es`, `sv` or `fr`).
+- Widescreen in 3D: races fill 16:9 and 21:9 screens, showing more scenery on the sides without
+  stretching the picture; split screen and reduced view sizes follow. The race HUD sits at the
+  screen edges (times and position on the left, speedometer and turbo on the right). Menus,
+  loading screens and the intro video stay 4:3 with black borders.
+- New RENDERER line in the graphics options: SOFTWARE (the original picture), DIRECT3D or VULKAN
+  (Windows), VULKAN (Android). Changes apply at once; F11 switches between software and 3D.
+  Saved in `fun_tracks_recomp.ini` (`moteur = logiciel`, `direct3d` or `vulkan`).
+- New ASPECT line in the graphics options: WIDE or 4:3 for the 3D picture
+  (`format = large` or `4:3`).
+- Menu pages too tall for the screen now scroll, with arrows above and below.
+
+### Changed
+
+- Settings that have no effect with the chosen renderer are greyed out: resolution, mip-mapping
+  and perspective polygons in 3D, aspect in software.
+- In 3D, races always use the high-resolution interface layout (sharper HUD); the keypad + and −
+  keys no longer change the resolution there. The resolution setting still applies to the
+  software renderer.
 
 ### Fixed
 
