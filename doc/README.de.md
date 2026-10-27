@@ -64,7 +64,7 @@ Im Vergleich zum Originalspiel von 1997:
 - **CD-Musik** aus OGG-Dateien.
 - **Überall dieselbe Physik**: Rennen rechnen auf jeder Plattform exakt gleich.
 
-Einige davon kommen mit der nächsten Alpha. Vollständige Liste, Version für Version:
+Vollständige Liste, Version für Version:
 [CHANGELOG.md](../CHANGELOG.md) (auf Englisch).
 
 ## Das Originalspiel wird benötigt
@@ -113,6 +113,5 @@ lassen sich auf der Tastenseite des Spiels ändern.
 
 ## Bekannte Einschränkungen (Alpha)
 
-- Nur 4:3-Bild (schwarze Ränder auf Breitbildschirmen); Breitbild kommt mit der nächsten Alpha.
 - Kein Netzwerk-Mehrspielermodus.
 - Nur ein Spieler unter Android.

@@ -66,7 +66,7 @@ Respecto al juego original de 1997:
 - **La misma física en todas partes**: las carreras calculan exactamente lo mismo en cada
   plataforma.
 
-Algunas de estas novedades llegan con la próxima alfa. Lista completa, versión por versión:
+Lista completa, versión por versión:
 [CHANGELOG.md](../CHANGELOG.md) (en inglés).
 
 ## Se necesita el juego original
@@ -115,7 +115,5 @@ en la página de controles del juego.
 
 ## Limitaciones conocidas (alfa)
 
-- Imagen solo en 4:3 (bandas negras en pantallas anchas); la pantalla panorámica llega con la
-  próxima alfa.
 - Sin multijugador en red.
 - Un solo jugador en Android.

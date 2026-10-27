@@ -65,7 +65,7 @@ Par rapport au jeu d'origine de 1997 :
 - **La même physique partout** : les courses donnent exactement les mêmes calculs sur toutes les
   plateformes.
 
-Certains de ces ajouts arrivent avec la prochaine alpha. Liste complète, version par version :
+Liste complète, version par version :
 [CHANGELOG.md](../CHANGELOG.md) (en anglais).
 
 ## Il faut le jeu original
@@ -115,7 +115,5 @@ changent dans la page des touches du jeu.
 
 ## Limites connues (alpha)
 
-- Image en 4:3 seulement (bandes noires sur les écrans larges) ; l'écran large arrive avec la
-  prochaine alpha.
 - Pas de multijoueur en réseau.
 - Un seul joueur sur Android.

@@ -63,7 +63,7 @@ Jämfört med originalspelet från 1997:
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
-En del av detta kommer med nästa alfa. Fullständig lista, version för version:
+Fullständig lista, version för version:
 [CHANGELOG.md](../CHANGELOG.md) (på engelska).
 
 ## Originalspelet behövs
@@ -113,6 +113,5 @@ Knapparna kan ändras på spelets sida för kontroller.
 
 ## Kända begränsningar (alfa)
 
-- Endast 4:3-bild (svarta kanter på breda skärmar); bredbild kommer med nästa alfa.
 - Inget flerspelarläge över nätverk.
 - Bara en spelare på Android.

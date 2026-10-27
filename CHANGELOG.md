@@ -2,7 +2,9 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.2.0-alpha] — 2026-10-27
+
+Second alpha release: widescreen, six languages, live menu demo.
 
 ### Added
 
@@ -39,6 +41,11 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   middle of the screen with the live demo all around; in software they follow the chosen
   resolution.
 - The game keeps running when its window loses focus (it used to freeze).
+
+### Known limitations
+
+- No network multiplayer.
+- Android: one player only; game files must be copied to the device by hand.
 
 ### Fixed
 
@@ -79,4 +86,5 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.2.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.2.0-alpha
 [0.1.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.1.0-alpha

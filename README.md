@@ -61,7 +61,7 @@ Compared with the original 1997 game:
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 
-Some of these arrive with the next alpha. Full list, version by version:
+Full list, version by version:
 [CHANGELOG.md](CHANGELOG.md).
 
 ## You need the original game
@@ -108,6 +108,5 @@ settings page.
 
 ## Known limitations (alpha)
 
-- 4:3 picture only (black borders on wide screens); widescreen comes with the next alpha.
 - No network multiplayer.
 - Only one player on Android.

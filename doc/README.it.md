@@ -64,7 +64,7 @@ Rispetto al gioco originale del 1997:
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 
-Alcune di queste novità arrivano con la prossima alpha. Elenco completo, versione per versione:
+Elenco completo, versione per versione:
 [CHANGELOG.md](../CHANGELOG.md) (in inglese).
 
 ## Serve il gioco originale
@@ -114,7 +114,5 @@ pausa. I tasti si cambiano nella pagina dei comandi del gioco.
 
 ## Limiti noti (alpha)
 
-- Immagine solo in 4:3 (bande nere sugli schermi larghi); lo schermo panoramico arriva con la
-  prossima alpha.
 - Niente multigiocatore in rete.
 - Un solo giocatore su Android.
