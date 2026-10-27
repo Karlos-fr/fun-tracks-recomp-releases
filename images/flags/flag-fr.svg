@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" role="img" aria-label="Drapeau francais">
+  <rect width="24" height="16" rx="2" fill="#fff"/>
+  <path fill="#1f45a8" d="M0 2a2 2 0 0 1 2-2h6v16H2a2 2 0 0 1-2-2z"/>
+  <path fill="#ef4135" d="M16 0h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6z"/>
+  <rect width="23" height="15" x=".5" y=".5" rx="1.5" fill="none" stroke="#000" stroke-opacity=".15"/>
+</svg>

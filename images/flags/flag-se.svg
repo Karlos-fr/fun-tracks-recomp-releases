@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" role="img" aria-label="Swedish flag">
+  <defs>
+    <clipPath id="flag-se-clip">
+      <rect width="24" height="16" rx="2" ry="2"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#flag-se-clip)">
+    <rect width="24" height="16" fill="#006aa7"/>
+    <rect x="7" y="0" width="3" height="16" fill="#fecc00"/>
+    <rect x="0" y="6.5" width="24" height="3" fill="#fecc00"/>
+  </g>
+  <rect width="23" height="15" x=".5" y=".5" rx="1.5" ry="1.5" fill="none" stroke="#000" stroke-opacity=".18"/>
+</svg>

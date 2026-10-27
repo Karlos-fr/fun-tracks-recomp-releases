@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" role="img" aria-label="German flag">
+  <defs>
+    <clipPath id="flag-de-clip">
+      <rect width="24" height="16" rx="2" ry="2"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#flag-de-clip)">
+    <rect width="24" height="5.3334" y="0" fill="#000"/>
+    <rect width="24" height="5.3334" y="5.3333" fill="#dd0000"/>
+    <rect width="24" height="5.3334" y="10.6666" fill="#ffce00"/>
+  </g>
+  <rect width="23" height="15" x=".5" y=".5" rx="1.5" ry="1.5" fill="none" stroke="#000" stroke-opacity=".18"/>
+</svg>
