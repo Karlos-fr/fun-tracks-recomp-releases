@@ -2,6 +2,21 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Added
+
+- New graphics options, off by default, greyed out without DYNAMIC lighting:
+  - REFLECTIONS (OFF / ON): each surface shines according to its material (glossy car paint, water,
+    slightly shiny asphalt, matte rock and grass). With added rain or storm, the ground gets wet:
+    darker, glossy asphalt that reflects headlights and street lamps, and puddles.
+  - SURFACE RELIEF (OFF / ON): rocks, verges and the road show bumps under grazing light.
+
+### Fixed
+
+- Night lights: a car's headlights no longer switch off at once when it drops out of the screen
+  behind the camera; car lights now fade out with distance.
+
 ## [0.3.0-alpha] — 2026-10-28
 
 Third alpha release: 3D graphics enhancements (textures, anti-aliasing, weather, lighting, night).
