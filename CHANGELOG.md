@@ -4,6 +4,26 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ## [Unreleased] — next alpha
 
+### Added
+
+- 3D graphics enhancements, as new lines at the end of the graphics options (all off by default,
+  greyed out in software, saved in `fun_tracks_recomp.ini`):
+  - FILTERING (SHARP / SMOOTH): textures smoothed without blurring their colours together.
+  - MIPMAPS and ANISOTROPIC (up to 16×): no more shimmering in the distance, the road stays sharp
+    up to the horizon.
+  - SHARPENING (LOW / MEDIUM): restores crispness to the 3D scene; the HUD is untouched.
+  - TEXTURES (ORIGINAL / HD 2X / HD 4X): HD texture packs. `tools/upscale_textures.py` builds them
+    from your game files in about a minute (pixel-art upscaling, no invented details);
+    `tools/dump_textures.py` extracts the original pages if you want to retouch them. Animated
+    textures (water) are never replaced and keep moving.
+  - WEATHER (ORIGINAL / RAIN / STORM / SNOW): rain, storms with lightning, or snow on any track. It
+    is scenery only: races and the AI are unchanged.
+  - LIGHTING (ORIGINAL / DYNAMIC) and SHADOWS (ORIGINAL / SIMPLE / DETAILED): a sun per track that
+    shades the scenery, and real shadows for cars (and the whole scenery in DETAILED).
+  - TIME OF DAY (ORIGINAL / DAY / DUSK / NIGHT): a real night, with headlights lighting the road,
+    tail lights, brake lights that come on when a car brakes, and lit street lamps, all with a soft
+    glow.
+
 ### Changed
 
 - 3D renderer rebuilt on a cleaner base: the game now tells the renderer exactly which data it may
