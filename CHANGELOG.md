@@ -12,6 +12,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   - MIPMAPS and ANISOTROPIC (up to 16×): no more shimmering in the distance, the road stays sharp
     up to the horizon.
   - SHARPENING (LOW / MEDIUM): restores crispness to the 3D scene; the HUD is untouched.
+  - ANTI-ALIASING (OFF / FXAA / MSAA 4X): smooths the jagged, stair-stepped edges of the 3D scene
+    (road borders, start banner). MSAA 4X fixes the edges exactly; FXAA is lighter but also softens
+    the game's high-contrast textures a little. The HUD and menus stay sharp.
   - TEXTURES (ORIGINAL / HD 2X / HD 4X): HD texture packs. `tools/upscale_textures.py` builds them
     from your game files in about a minute (pixel-art upscaling, no invented details);
     `tools/dump_textures.py` extracts the original pages if you want to retouch them. Animated
