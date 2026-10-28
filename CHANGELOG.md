@@ -4,7 +4,21 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ## [Unreleased] — next alpha
 
+### Changed
+
+- 3D renderer rebuilt on a cleaner base: the game now tells the renderer exactly which data it may
+  read and when it is freed, which parts of the picture are interface, and which full-screen effects
+  to apply, instead of the renderer guessing them. About 20% less time per frame in 3D.
+- The menu transitions (entry, exit and race start) now cover the whole screen in 3D, and the live
+  demo keeps running behind them instead of turning black.
+
 ### Fixed
+
+- 3D renderer: the game could crash now and then when going back to the menus after a race (for
+  example after QUIT, then starting another race). The cause is fixed.
+- 3D renderer, Tokyo Bullet: the street lamp halos now show, as in the original game.
+- 3D renderer: the race opening circle has a soft edge again, and it darkens the HUD outside the
+  circle, as in the original game.
 
 - 3D renderer: after playing several tracks, the scenery could stay black, and cars or their
   tyres could vanish until the renderer was switched (F11). Tracks now load fully every time.
