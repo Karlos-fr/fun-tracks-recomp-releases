@@ -61,6 +61,9 @@ Im Vergleich zum Originalspiel von 1997:
 - **Sechs Sprachen** im Spiel (Englisch, Deutsch, Italienisch, Spanisch, Schwedisch,
   Französisch), nach der Systemsprache oder in den Optionen gewählt.
 - **Android-Version** für Handheld-Konsolen, mit Gamepad-Steuerung.
+- **Grafikverbesserungen** in 3D, alle optional: geglättete Texturen, Mipmaps, anisotrope
+  Filterung, Schärfe, Kantenglättung, HD-Texturpakete, Regen, Gewitter und Schnee (auch auf
+  der Kameralinse), dynamisches Licht und Schatten sowie eine echte Nacht mit Scheinwerfern.
 - **CD-Musik** aus OGG-Dateien.
 - **Überall dieselbe Physik**: Rennen rechnen auf jeder Plattform exakt gleich.
 

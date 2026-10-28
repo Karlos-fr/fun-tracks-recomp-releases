@@ -60,6 +60,9 @@ Jämfört med originalspelet från 1997:
 - **Sex språk** inbyggda i spelet (engelska, tyska, italienska, spanska, svenska, franska),
   valda efter systemets språk eller i inställningarna.
 - **Android-version** för handhållna konsoler, med handkontroll.
+- **Grafikförbättringar** i 3D, alla valfria: utjämnade texturer, mipmaps, anisotropisk
+  filtrering, skärpa, kantutjämning, HD-texturpaket, regn, åska och snö (även på
+  kameralinsen), dynamiskt ljus och skuggor samt en riktig natt med strålkastare.
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 

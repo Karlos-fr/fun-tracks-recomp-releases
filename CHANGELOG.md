@@ -2,7 +2,9 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.3.0-alpha] — 2026-10-28
+
+Third alpha release: 3D graphics enhancements (textures, anti-aliasing, weather, lighting, night).
 
 ### Added
 
@@ -21,11 +23,15 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
     textures (water) are never replaced and keep moving.
   - WEATHER (ORIGINAL / RAIN / STORM / SNOW): rain, storms with lightning, or snow on any track. It
     is scenery only: races and the AI are unchanged.
+  - WEATHER ON CAMERA (OFF / ON, with an added weather): rain and snow hit the camera lens, like in
+    real rainy racing footage. Drops are soft, out-of-focus blobs that distort the scene behind
+    them; heavy ones slide down, merge and leave a wet trail, faster and more often the faster you
+    drive; snowflakes land as white blurs and melt into water. The HUD stays sharp.
   - LIGHTING (ORIGINAL / DYNAMIC) and SHADOWS (ORIGINAL / SIMPLE / DETAILED): a sun per track that
     shades the scenery, and real shadows for cars (and the whole scenery in DETAILED).
   - TIME OF DAY (ORIGINAL / DAY / DUSK / NIGHT): a real night, with headlights lighting the road,
-    tail lights, brake lights that come on when a car brakes, and lit street lamps, all with a soft
-    glow.
+    discreet tail lights, brake lights that glow on the road behind a braking car, and lit street
+    lamps, all with a soft glow. Markers (the arrow above your car, car names) stay bright at night.
 
 ### Changed
 
@@ -34,6 +40,11 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   to apply, instead of the renderer guessing them. About 20% less time per frame in 3D.
 - The menu transitions (entry, exit and race start) now cover the whole screen in 3D, and the live
   demo keeps running behind them instead of turning black.
+
+### Known limitations
+
+- No network multiplayer.
+- Android: one player only; game files must be copied to the device by hand.
 
 ### Fixed
 
@@ -137,5 +148,6 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.3.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.3.0-alpha
 [0.2.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.2.0-alpha
 [0.1.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.1.0-alpha

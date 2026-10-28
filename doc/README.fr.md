@@ -61,6 +61,9 @@ Par rapport au jeu d'origine de 1997 :
 - **Six langues** intégrées au jeu (anglais, allemand, italien, espagnol, suédois, français),
   choisies d'après la langue du système ou dans les options.
 - **Version Android** pour les consoles portables, jouable à la manette.
+- **Améliorations graphiques** en 3D, toutes au choix : textures lissées, mipmaps, filtrage
+  anisotrope, netteté, anticrénelage, packs de textures HD, pluie, orage et neige (aussi sur
+  l'objectif de la caméra), éclairage et ombres dynamiques, et une vraie nuit avec phares.
 - **Musique du CD** jouée depuis des fichiers OGG.
 - **La même physique partout** : les courses donnent exactement les mêmes calculs sur toutes les
   plateformes.

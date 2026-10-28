@@ -61,6 +61,9 @@ Rispetto al gioco originale del 1997:
 - **Sei lingue** integrate nel gioco (inglese, tedesco, italiano, spagnolo, svedese, francese),
   scelte in base alla lingua del sistema o nelle opzioni.
 - **Versione Android** per console portatili, con controlli da gamepad.
+- **Miglioramenti grafici** in 3D, tutti facoltativi: texture levigate, mipmap, filtro
+  anisotropo, nitidezza, antialiasing, pacchetti di texture HD, pioggia, temporale e neve
+  (anche sull'obiettivo), luci e ombre dinamiche e una vera notte con i fari.
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 
