@@ -2,6 +2,20 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Fixed
+
+- 3D renderer: after playing several tracks, the scenery could stay black, and cars or their
+  tyres could vanish until the renderer was switched (F11). Tracks now load fully every time.
+- 3D renderer, Tokyo Bullet: large white patches no longer cover the screen when the camera
+  passes close to a street lamp glow.
+- 3D renderer: cars no longer sink into the ground.
+- 3D renderer, Yodel Peaks: the drifting mist no longer has a pink tint.
+- 3D renderer: the pause menu text on Snake Island is drawn cleanly.
+- 3D renderer: no more thin line above "TOTAL TIME".
+- 3D renderer: leaving the menus for a race no longer shows a black box over the live demo.
+
 ## [0.2.0-alpha] — 2026-10-27
 
 Second alpha release: widescreen, six languages, live menu demo.
