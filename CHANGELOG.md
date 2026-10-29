@@ -6,6 +6,17 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Added
 
+- Same-screen multiplayer for up to six players with a 3D engine: two at most on the keyboard (its
+  left and right halves), the others on gamepads. MULTI PLAYER → SPLIT SCREEN: each gamepad joins or
+  leaves with Y, the left half of the keyboard with one of its keys; then everyone picks a car at the
+  same time, each in their own frame. Views split and merge with the race: players close together
+  share a view, the ones who pull away get their own (1 to 6 views), with a small J1 to J6 marker
+  above each car, sized by distance. The software engine keeps the original two-player game.
+- Player settings (OPTIONS → PLAYERS, Select on the join screen, PLAYERS line of the pause menu):
+  device, a control for each action captured on the player's own device, default controls, gearbox
+  and automatic acceleration, saved as `playerN_*` keys. Whoever pauses drives the pause menu with
+  their own device.
+
 - New graphics options, off by default, greyed out without DYNAMIC lighting:
   - REFLECTIONS (OFF / ON): each surface shines according to its material (glossy car paint, water,
     slightly shiny asphalt, matte rock and grass). With added rain or storm, the ground gets wet:
