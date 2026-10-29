@@ -27,6 +27,10 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Changed
 
+- The settings file `fun_tracks_recomp.ini` uses English keys and values (`engine=software`,
+  `weather=rain`, `reflections=full`…). It is created with all its default values when missing; an
+  existing file keeps your choices and comments, its former French names being translated
+  automatically.
 - Menus with a 3D engine use the whole screen at the same scale: the graphics options show 14 lines
   instead of 6, in two aligned columns. Scroll arrows sit in their own row, only when lines are hidden on that
   side, and no longer overlap the title. Menus no longer wrap around from the last line to the first.
