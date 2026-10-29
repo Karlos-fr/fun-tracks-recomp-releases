@@ -9,8 +9,10 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - New graphics options, off by default, greyed out without DYNAMIC lighting:
   - REFLECTIONS (OFF / ON): each surface shines according to its material (glossy car paint, water,
     slightly shiny asphalt, matte rock and grass). With added rain or storm, the ground gets wet:
-    darker, glossy asphalt that reflects headlights and street lamps, and puddles.
-  - SURFACE RELIEF (OFF / ON): rocks, verges and the road show bumps under grazing light.
+    darker, glossy asphalt and puddles. On a wet road, headlights, tail lights, street lamps and the
+    cars themselves are mirrored in long streaks, like on a real road at night in the rain.
+  - SURFACE RELIEF (OFF / ON): rocks, verges and the road gain real volume from their own textures,
+    fading out smoothly in the distance.
 
 ### Fixed
 
