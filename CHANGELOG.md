@@ -10,14 +10,28 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   - REFLECTIONS (OFF / ON): each surface shines according to its material (glossy car paint, water,
     slightly shiny asphalt, matte rock and grass). With added rain or storm, the ground gets wet:
     darker, glossy asphalt and puddles. On a wet road, headlights, tail lights, street lamps and the
-    cars themselves are mirrored in long streaks, like on a real road at night in the rain.
+    cars themselves are mirrored in long streaks, like on a real road at night in the rain. The sea
+    and the game's animated water mirror the scenery too, rain or not.
+  - RAIN RIPPLES (OFF / ON, with REFLECTIONS and added rain or storm): raindrops hit the wet road and
+    the water, each one spreading two or three fine rings of its own size that fade out.
   - SURFACE RELIEF (OFF / ON): rocks, verges and the road gain real volume from their own textures,
     fading out smoothly in the distance.
+
+### Changed
+
+- Car lights at night look photo-realistic: headlights only dazzle when facing the camera (from behind
+  you see their warm beam on the road), tail lights glow red from behind, and brake lights fade in and
+  out like real bulbs, three to four times brighter, lighting the road behind the car.
+- Added rain looks more like real rain: drops only show by the light they catch, so at night they
+  glitter in the headlight beams; close to the camera they are blurred and almost transparent, and
+  their streaks vary in length and strength.
 
 ### Fixed
 
 - Night lights: a car's headlights no longer switch off at once when it drops out of the screen
   behind the camera; car lights now fade out with distance.
+- Wet road: no more stair-shaped grey patches or visible triangles; puddles have round edges, wet
+  tyres stay dark and the reflection streaks are smooth.
 
 ## [0.3.0-alpha] — 2026-10-28
 
