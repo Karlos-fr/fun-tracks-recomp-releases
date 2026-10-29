@@ -2,6 +2,19 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Added
+
+- OPTIONS → 3DFX (3D renderer): the rendering differences of the 1997 3dfx edition, one per line or
+  all at once with PRESET, checked side by side against the original 3dfx game:
+  - EFFECTS: the 3dfx effect pictures, with glowing additive smoke, sparks and glints.
+  - SCENERY: the tracks' redrawn details of the 3dfx edition (painted sea on Snake Island, foliage
+    and banners on Lost Ruins, clouds, fences, flags, street lamp cones in Tokyo).
+  - RAIN: Moosejaw Falls' own rain as thin blue-to-white glowing streaks.
+  - SHADOWS: the game's shadows as soft half-transparent shapes.
+  - COLOURS: 16-bit dithered colours, like a Voodoo card.
+
 ## [0.4.0-alpha] — 2026-10-29
 
 Fourth alpha release: same-screen multiplayer for up to six players, reflections and wet roads.
