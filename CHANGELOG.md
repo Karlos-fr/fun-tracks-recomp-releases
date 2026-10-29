@@ -51,6 +51,10 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Fixed
 
+- Weather effects no longer repeat: rain ripples fall anywhere on the ground (no grid pattern) and
+  no longer replay the same drops every 100 seconds; each rain drop and snowflake takes a new place
+  every time it falls; rain ripples, drops on the camera and lightning differ from one game to the
+  next.
 - Night lights: the glow of car lights was hidden by the bodywork up close, or shown as large blobs
   below the lights from afar.
 - Night lights: a car's headlights no longer switch off at once when it drops out of the screen
