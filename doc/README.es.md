@@ -62,6 +62,9 @@ Respecto al juego original de 1997:
 - **Seis idiomas** integrados en el juego (inglés, alemán, italiano, español, sueco, francés),
   elegidos según el idioma del sistema o en las opciones.
 - **Versión para Android** para consolas portátiles, con mando.
+- **Multijugador en la misma pantalla** en 3D para hasta seis jugadores (mitades del teclado y
+  mandos): las vistas se dividen y se unen según la carrera, cada uno elige su coche y configura
+  sus controles.
 - **Mejoras gráficas** en 3D, todas opcionales: texturas suavizadas, mipmaps, filtrado
   anisótropo, nitidez, antialiasing, paquetes de texturas HD, lluvia, tormenta y nieve
   (también en el objetivo de la cámara), luz y sombras dinámicas y una noche real con faros.
@@ -119,4 +122,4 @@ en la página de controles del juego.
 ## Limitaciones conocidas (alfa)
 
 - Sin multijugador en red.
-- Un solo jugador en Android.
+- Multijugador en la misma pantalla aún no probado en Android.

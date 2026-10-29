@@ -2,7 +2,9 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.4.0-alpha] — 2026-10-29
+
+Fourth alpha release: same-screen multiplayer for up to six players, reflections and wet roads.
 
 ### Added
 
@@ -59,6 +61,12 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Added rain looks more like real rain: drops only show by the light they catch, so at night they
   glitter in the headlight beams; close to the camera they are blurred and almost transparent, and
   their streaks vary in length and strength.
+
+### Known limitations
+
+- No network multiplayer.
+- Android: same-screen multiplayer not yet tested on a device; game files must be copied to the
+  device by hand.
 
 ### Fixed
 
@@ -224,6 +232,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.4.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.4.0-alpha
 [0.3.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.3.0-alpha
 [0.2.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.2.0-alpha
 [0.1.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.1.0-alpha

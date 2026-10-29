@@ -61,6 +61,9 @@ Rispetto al gioco originale del 1997:
 - **Sei lingue** integrate nel gioco (inglese, tedesco, italiano, spagnolo, svedese, francese),
   scelte in base alla lingua del sistema o nelle opzioni.
 - **Versione Android** per console portatili, con controlli da gamepad.
+- **Multigiocatore sullo stesso schermo** in 3D fino a sei giocatori (metà della tastiera e
+  gamepad): le visuali si dividono e si riuniscono secondo la gara, ognuno sceglie la sua auto e
+  configura i suoi comandi.
 - **Miglioramenti grafici** in 3D, tutti facoltativi: texture levigate, mipmap, filtro
   anisotropo, nitidezza, antialiasing, pacchetti di texture HD, pioggia, temporale e neve
   (anche sull'obiettivo), luci e ombre dinamiche e una vera notte con i fari.
@@ -118,4 +121,4 @@ pausa. I tasti si cambiano nella pagina dei comandi del gioco.
 ## Limiti noti (alpha)
 
 - Niente multigiocatore in rete.
-- Un solo giocatore su Android.
+- Multigiocatore sullo stesso schermo non ancora provato su Android.

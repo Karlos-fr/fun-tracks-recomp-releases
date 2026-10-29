@@ -58,6 +58,8 @@ Compared with the original 1997 game:
 - **Six languages** built into the game (English, German, Italian, Spanish, Swedish, French),
   chosen from the system language or in the options.
 - **Android** version for handheld consoles, with gamepad controls.
+- **Same-screen multiplayer** in 3D for up to six players (keyboard halves and gamepads): views
+  split and merge with the race, each player picks a car and sets up their own controls.
 - **Graphics enhancements** in 3D, all optional: smooth textures, mipmaps, anisotropic
   filtering, sharpening, anti-aliasing, HD texture packs, rain, storm and snow (also on the
   camera lens), dynamic lighting and shadows, and a real night with headlights.
@@ -112,4 +114,4 @@ settings page.
 ## Known limitations (alpha)
 
 - No network multiplayer.
-- Only one player on Android.
+- Same-screen multiplayer not yet tested on Android.

@@ -61,6 +61,9 @@ Im Vergleich zum Originalspiel von 1997:
 - **Sechs Sprachen** im Spiel (Englisch, Deutsch, Italienisch, Spanisch, Schwedisch,
   Französisch), nach der Systemsprache oder in den Optionen gewählt.
 - **Android-Version** für Handheld-Konsolen, mit Gamepad-Steuerung.
+- **Mehrspielermodus am selben Bildschirm** in 3D für bis zu sechs Spieler (Tastaturhälften und
+  Gamepads): die Ansichten teilen und vereinen sich je nach Rennen, jeder wählt sein Auto und
+  stellt seine Steuerung ein.
 - **Grafikverbesserungen** in 3D, alle optional: geglättete Texturen, Mipmaps, anisotrope
   Filterung, Schärfe, Kantenglättung, HD-Texturpakete, Regen, Gewitter und Schnee (auch auf
   der Kameralinse), dynamisches Licht und Schatten sowie eine echte Nacht mit Scheinwerfern.
@@ -117,4 +120,4 @@ lassen sich auf der Tastenseite des Spiels ändern.
 ## Bekannte Einschränkungen (Alpha)
 
 - Kein Netzwerk-Mehrspielermodus.
-- Nur ein Spieler unter Android.
+- Mehrspielermodus am selben Bildschirm unter Android noch nicht getestet.

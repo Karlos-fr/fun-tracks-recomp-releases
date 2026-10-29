@@ -60,6 +60,9 @@ Jämfört med originalspelet från 1997:
 - **Sex språk** inbyggda i spelet (engelska, tyska, italienska, spanska, svenska, franska),
   valda efter systemets språk eller i inställningarna.
 - **Android-version** för handhållna konsoler, med handkontroll.
+- **Flerspelarläge på samma skärm** i 3D för upp till sex spelare (tangentbordshalvor och
+  handkontroller): vyerna delas och slås ihop efter loppet, var och en väljer sin bil och ställer
+  in sina kontroller.
 - **Grafikförbättringar** i 3D, alla valfria: utjämnade texturer, mipmaps, anisotropisk
   filtrering, skärpa, kantutjämning, HD-texturpaket, regn, åska och snö (även på
   kameralinsen), dynamiskt ljus och skuggor samt en riktig natt med strålkastare.
@@ -117,4 +120,4 @@ Knapparna kan ändras på spelets sida för kontroller.
 ## Kända begränsningar (alfa)
 
 - Inget flerspelarläge över nätverk.
-- Bara en spelare på Android.
+- Flerspelarläge på samma skärm ännu inte testat på Android.
