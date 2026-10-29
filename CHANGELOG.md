@@ -19,6 +19,7 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 - Pause menu: a new OPTIONS line opens the graphics enhancements, applied at once without leaving
   the race.
+- FPS COUNTER (OFF / ON): a small, discreet frame rate counter in the top right corner.
 - SMOOTH INTERFACE (OFF / ON): menus, texts and gauges with rounded pixel staircases and soft edges,
   at the same size.
 
@@ -29,6 +30,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   side, and no longer overlap the title. Menus no longer wrap around from the last line to the first.
   ENGINE is the first line of the graphics options, and long labels no longer overlap their value.
 - Night: the flashing beacons light their surroundings while they flash, and the turbo stars glow.
+- Faster graphics enhancements on large screens: lighter wet-road reflections, rain drops lit once per
+  drop instead of once per pixel, and lamps entirely behind the camera skipped.
 - Car lights at night look photo-realistic: headlights only dazzle when facing the camera (from behind
   you see their warm beam on the road), tail lights glow red from behind, and brake lights fade in and
   out like real bulbs, three to four times brighter, lighting the road behind the car.
