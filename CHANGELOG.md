@@ -37,12 +37,18 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Car lights at night look photo-realistic: headlights only dazzle when facing the camera (from behind
   you see their warm beam on the road), tail lights glow red from behind, and brake lights fade in and
   out like real bulbs, three to four times brighter, lighting the road behind the car.
+- Car lights sit exactly on the lights drawn on each car, with their own number, size and shape: the
+  police car's twin headlights, the jeep's three stacked tail lights, the school bus's round tail
+  lights and roof marker lights, the long tail light strips of the black car. Each light glows over
+  its drawing, round or straight-edged, following the bodywork in perspective.
 - Added rain looks more like real rain: drops only show by the light they catch, so at night they
   glitter in the headlight beams; close to the camera they are blurred and almost transparent, and
   their streaks vary in length and strength.
 
 ### Fixed
 
+- Night lights: the glow of car lights was hidden by the bodywork up close, or shown as large blobs
+  below the lights from afar.
 - Night lights: a car's headlights no longer switch off at once when it drops out of the screen
   behind the camera; car lights now fade out with distance.
 - Menu background race: the cars were squashed after the menus grew taller.
