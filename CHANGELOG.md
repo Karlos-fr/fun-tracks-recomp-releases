@@ -6,6 +6,17 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Added
 
+- Network game for 2 to 6 players (PC or Android console), one player per machine, on the local
+  network or over the Internet, with the 1997 game's own rules (single race, time limit and chase
+  modes, host restart, players leaving). MULTI PLAYER → NETWORK GAME opens a lobby: NAME, CREATE A
+  GAME, local network games found automatically, or an ADDRESS to join over the Internet (typed on
+  the keyboard, the on-screen keyboard on Android, or with the gamepad).
+  - Over the Internet: remote cars are smoothed on screen, car updates drop to 30 per second on a
+    slow link, packets are compressed, and the session page shows the round trip and packet loss.
+  - Clear messages: game not found, game already started, other version, port already in use, host
+    has left. A host that vanishes in a race is noticed within seconds.
+  - The host opens or forwards UDP port 17970 on their router to play over the Internet.
+
 - OPTIONS → 3DFX (3D renderer): the rendering differences of the 1997 3dfx edition, one per line or
   all at once with PRESET, checked side by side against the original 3dfx game:
   - EFFECTS: the 3dfx effect pictures, with glowing additive smoke, sparks and glints.
