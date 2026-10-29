@@ -44,6 +44,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Night lights: a car's headlights no longer switch off at once when it drops out of the screen
   behind the camera; car lights now fade out with distance.
 - Menu background race: the cars were squashed after the menus grew taller.
+- Pause menu: the OPTIONS line was cut at the bottom of the panel.
+- Menus: coming back from a race could leave them in black and white.
 - Weather on the camera: two drops could swallow each other over and over and grow until they hid
   the whole screen.
 - Wet road: no more stair-shaped grey patches or visible triangles; puddles have round edges, wet
