@@ -25,8 +25,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Changed
 
-- Menus with a 3D engine use the full height of the screen at the same scale: the graphics options
-  show 14 lines instead of 6. Scroll arrows sit in their own row, only when lines are hidden on that
+- Menus with a 3D engine use the whole screen at the same scale: the graphics options show 14 lines
+  instead of 6, in two aligned columns. Scroll arrows sit in their own row, only when lines are hidden on that
   side, and no longer overlap the title. Menus no longer wrap around from the last line to the first.
   ENGINE is the first line of the graphics options, and long labels no longer overlap their value.
 - Night: the flashing beacons light their surroundings while they flash, and the turbo stars glow.
@@ -43,6 +43,7 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 - Night lights: a car's headlights no longer switch off at once when it drops out of the screen
   behind the camera; car lights now fade out with distance.
+- Menu background race: the cars were squashed after the menus grew taller.
 - Weather on the camera: two drops could swallow each other over and over and grow until they hid
   the whole screen.
 - Wet road: no more stair-shaped grey patches or visible triangles; puddles have round edges, wet
