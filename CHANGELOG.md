@@ -15,10 +15,13 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   as soon as the camera is low: blue with drifting clouds by day, a red sunset at dusk, stars at
   night, grey and overcast in the rain; each track keeps its own light. Water, wet roads, puddles
   and cars reflect it.
-- Puddles under added rain or storm (with REFLECTIONS): mirror-like water with irregular edges and
-  a soaked fringe of darker asphalt, reflecting the sky and the scenery.
-- Splashes: cars running through puddles throw side sheets and a rear spray of drops that fall and
-  bounce, leaving a veil of mist behind the wheels.
+- Puddles under added rain or storm (with REFLECTIONS): clear water with irregular edges and a
+  soaked fringe of darker asphalt. Seen from above you see the asphalt through it; at low angles it
+  reflects the sky and the scenery. Headlights and street lamps light it up, and wheels leave
+  ripples that spread and fade.
+- Splashes: cars running through puddles throw a crown of water as they enter, then a translucent
+  sheet and a rear spray that fall back, with a veil of mist pushed by the wind. Every crossing
+  looks different (strength, side drift, more water on the outside of a bend).
 
 ### Changed
 
