@@ -35,6 +35,7 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - The OPTIONS page opens on its first entry at launch.
 - Windows, windowed mode: the window opens centred with its title bar (move, minimise, maximise)
   and can be resized.
+- Alt+Enter switches between full screen and window at once (it took several seconds).
 
 ## [0.5.0-alpha] — 2026-10-30
 
