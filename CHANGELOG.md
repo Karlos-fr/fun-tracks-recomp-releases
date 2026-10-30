@@ -2,6 +2,21 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Added
+
+- OPTIONS → ATMOSPHERE (3D renderer): weather, weather on the camera, rain ripples, time of day and
+  the new SKY line, gathered in one sub-menu.
+- SKY (with DYNAMIC lighting): a real sky behind the scenery instead of the plain background, seen
+  as soon as the camera is low: blue with drifting clouds by day, a red sunset at dusk, stars at
+  night, grey and overcast in the rain; each track keeps its own light. Water, wet roads, puddles
+  and cars reflect it.
+- Puddles under added rain or storm (with REFLECTIONS): mirror-like water with irregular edges and
+  a soaked fringe of darker asphalt, reflecting the sky and the scenery.
+- Splashes: cars running through puddles throw side sheets and a rear spray of drops that fall and
+  bounce, leaving a veil of mist behind the wheels.
+
 ## [0.5.0-alpha] — 2026-10-30
 
 Fifth alpha release: network game between PCs and Android consoles, and the look of the 1997 3dfx
