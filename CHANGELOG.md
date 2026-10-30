@@ -17,6 +17,13 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Splashes: cars running through puddles throw side sheets and a rear spray of drops that fall and
   bounce, leaving a veil of mist behind the wheels.
 
+### Changed
+
+- One settings page for the menus and the pause menu: the pause OPTIONS line opens the same DISPLAY
+  OPTIONS page as the menus (3D renderer), with its ATMOSPHERE and 3DFX sub-pages, the same look and
+  scroll arrows. Lines that cannot change during a race (engine, resolution, format…) are greyed out.
+- The key help lines are gone from the settings pages, the network lobby and the player panels.
+
 ## [0.5.0-alpha] — 2026-10-30
 
 Fifth alpha release: network game between PCs and Android consoles, and the look of the 1997 3dfx
