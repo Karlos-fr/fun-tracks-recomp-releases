@@ -22,6 +22,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Splashes: cars running through puddles throw a crown of water as they enter, then a translucent
   sheet and a rear spray that fall back, with a veil of mist pushed by the wind. Every crossing
   looks different (strength, side drift, more water on the outside of a bend).
+- ROUND WHEELS (DISPLAY OPTIONS, 3D renderer, off by default): the cars' five-sided wheels become
+  round, keeping their painted rims, and they roll with the car's speed, backwards in reverse.
 
 ### Changed
 
