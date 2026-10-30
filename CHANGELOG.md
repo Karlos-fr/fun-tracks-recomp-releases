@@ -2,7 +2,10 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.5.0-alpha] — 2026-10-30
+
+Fifth alpha release: network game between PCs and Android consoles, and the look of the 1997 3dfx
+edition.
 
 ### Added
 
@@ -28,10 +31,20 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   - SHADOWS: the game's shadows as soft half-transparent shapes.
   - COLOURS: 16-bit dithered colours, like a Voodoo card.
 
+### Known limitations
+
+- Network game tested between a PC and an Android console on the same Wi-Fi network, not yet
+  between two PCs nor over the Internet with real players.
+- Android: same-screen multiplayer not yet tested on a device; game files must be copied to the
+  device by hand.
+- The 3dfx look was compared with the original 3dfx game on still pictures and short drives, not
+  over full played races.
+
 ### Fixed
 
 - Android: the game no longer closes when it comes back after being sent to the background (home
   screen, settings).
+- Android: the network pause menu no longer flickers (one frame in two was black).
 - The idle credits no longer start in the network lobby or while a network game is open, where
   they hid the game choices.
 
@@ -265,6 +278,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.5.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.5.0-alpha
 [0.4.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.4.0-alpha
 [0.3.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.3.0-alpha
 [0.2.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.2.0-alpha

@@ -67,6 +67,10 @@ Rispetto al gioco originale del 1997:
 - **Miglioramenti grafici** in 3D, tutti facoltativi: texture levigate, mipmap, filtro
   anisotropo, nitidezza, antialiasing, pacchetti di texture HD, pioggia, temporale e neve
   (anche sull'obiettivo), luci e ombre dinamiche e una vera notte con i fari.
+- **Gioco in rete** da 2 a 6 giocatori, PC o console Android, uno per dispositivo: in rete locale
+  (le partite si trovano da sole) o via Internet (l'host apre la porta UDP 17970).
+- **Aspetto dell'edizione 3dfx** (OPZIONI → 3DFX): effetti, scenari ridisegnati, pioggia, ombre e
+  colori a 16 bit dell'edizione 3dfx del 1997, uno per uno o tutti insieme.
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 
@@ -120,5 +124,6 @@ pausa. I tasti si cambiano nella pagina dei comandi del gioco.
 
 ## Limiti noti (alpha)
 
-- Niente multigiocatore in rete.
+- Gioco in rete provato tra un PC e una console Android in rete locale; non ancora tra due PC né
+  via Internet.
 - Multigiocatore sullo stesso schermo non ancora provato su Android.

@@ -63,6 +63,10 @@ Compared with the original 1997 game:
 - **Graphics enhancements** in 3D, all optional: smooth textures, mipmaps, anisotropic
   filtering, sharpening, anti-aliasing, HD texture packs, rain, storm and snow (also on the
   camera lens), dynamic lighting and shadows, and a real night with headlights.
+- **Network game** for 2 to 6 players, PC or Android console, one per machine: on the local
+  network (games are found automatically) or over the Internet (the host opens UDP port 17970).
+- **3dfx edition look** (OPTIONS → 3DFX): the effects, redrawn scenery, rain, shadows and 16-bit
+  colours of the 1997 3dfx edition, one by one or all at once.
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 
@@ -113,5 +117,6 @@ settings page.
 
 ## Known limitations (alpha)
 
-- No network multiplayer.
+- Network game tested between a PC and an Android console on a local network; not yet between
+  two PCs nor over the Internet.
 - Same-screen multiplayer not yet tested on Android.

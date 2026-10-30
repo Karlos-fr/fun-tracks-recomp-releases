@@ -68,6 +68,10 @@ Respecto al juego original de 1997:
 - **Mejoras gráficas** en 3D, todas opcionales: texturas suavizadas, mipmaps, filtrado
   anisótropo, nitidez, antialiasing, paquetes de texturas HD, lluvia, tormenta y nieve
   (también en el objetivo de la cámara), luz y sombras dinámicas y una noche real con faros.
+- **Juego en red** de 2 a 6 jugadores, PC o consola Android, uno por equipo: en la red local (las
+  partidas se encuentran solas) o por Internet (el anfitrión abre el puerto UDP 17970).
+- **Aspecto de la edición 3dfx** (OPCIONES → 3DFX): efectos, decorados redibujados, lluvia, sombras
+  y colores de 16 bits de la edición 3dfx de 1997, uno a uno o todos a la vez.
 - **Música del CD** reproducida desde archivos OGG.
 - **La misma física en todas partes**: las carreras calculan exactamente lo mismo en cada
   plataforma.
@@ -121,5 +125,6 @@ en la página de controles del juego.
 
 ## Limitaciones conocidas (alfa)
 
-- Sin multijugador en red.
+- Juego en red probado entre un PC y una consola Android en una red local; aún no entre dos PC
+  ni por Internet.
 - Multijugador en la misma pantalla aún no probado en Android.

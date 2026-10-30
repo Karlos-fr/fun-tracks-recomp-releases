@@ -66,6 +66,10 @@ Jämfört med originalspelet från 1997:
 - **Grafikförbättringar** i 3D, alla valfria: utjämnade texturer, mipmaps, anisotropisk
   filtrering, skärpa, kantutjämning, HD-texturpaket, regn, åska och snö (även på
   kameralinsen), dynamiskt ljus och skuggor samt en riktig natt med strålkastare.
+- **Nätverksspel** för 2 till 6 spelare, PC eller Android-konsol, en per enhet: i det lokala
+  nätverket (spelen hittas automatiskt) eller över Internet (värden öppnar UDP-port 17970).
+- **3dfx-utgåvans utseende** (INSTÄLLNINGAR → 3DFX): effekter, omritad miljö, regn, skuggor och
+  16-bitarsfärger från 3dfx-utgåvan från 1997, en i taget eller alla på en gång.
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
@@ -119,5 +123,6 @@ Knapparna kan ändras på spelets sida för kontroller.
 
 ## Kända begränsningar (alfa)
 
-- Inget flerspelarläge över nätverk.
+- Nätverksspel testat mellan en PC och en Android-konsol i ett lokalt nätverk; ännu inte mellan
+  två PC eller över Internet.
 - Flerspelarläge på samma skärm ännu inte testat på Android.
