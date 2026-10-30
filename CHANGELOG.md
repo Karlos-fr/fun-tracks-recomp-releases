@@ -33,6 +33,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Changing TEXTURES in the settings page could switch the renderer.
 - HD textures no longer slow down the menu background race.
 - The OPTIONS page opens on its first entry at launch.
+- Windows, windowed mode: the window opens centred with its title bar (move, minimise, maximise)
+  and can be resized.
 
 ## [0.5.0-alpha] — 2026-10-30
 
