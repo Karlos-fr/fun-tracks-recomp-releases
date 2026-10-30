@@ -36,6 +36,7 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Windows, windowed mode: the window opens centred with its title bar (move, minimise, maximise)
   and can be resized.
 - Alt+Enter switches between full screen and window at once (it took several seconds).
+- Faster start with the 3D renderer on Windows (Direct3D 12): about 4 seconds instead of 11.
 
 ## [0.5.0-alpha] — 2026-10-30
 
