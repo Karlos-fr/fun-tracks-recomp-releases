@@ -16,6 +16,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   - Clear messages: game not found, game already started, other version, port already in use, host
     has left. A host that vanishes in a race is noticed within seconds.
   - The host opens or forwards UDP port 17970 on their router to play over the Internet.
+  - Tested between a PC and an Android console (Odin 2 Portal) on home Wi-Fi: lobby, race, pause,
+    host restart, players leaving.
 
 - OPTIONS → 3DFX (3D renderer): the rendering differences of the 1997 3dfx edition, one per line or
   all at once with PRESET, checked side by side against the original 3dfx game:
@@ -25,6 +27,13 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   - RAIN: Moosejaw Falls' own rain as thin blue-to-white glowing streaks.
   - SHADOWS: the game's shadows as soft half-transparent shapes.
   - COLOURS: 16-bit dithered colours, like a Voodoo card.
+
+### Fixed
+
+- Android: the game no longer closes when it comes back after being sent to the background (home
+  screen, settings).
+- The idle credits no longer start in the network lobby or while a network game is open, where
+  they hid the game choices.
 
 ## [0.4.0-alpha] — 2026-10-29
 
