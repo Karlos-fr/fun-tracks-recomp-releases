@@ -6,6 +6,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Added
 
+- HD textures without any download: on first launch, the game upscales the textures of your own
+  install in the background (a few seconds) into a `textures_hd` folder; TEXTURES (HD ×2 / HD ×4)
+  then becomes available, with MIPMAPS on. Images already in `textures_hd` are kept.
 - OPTIONS → ATMOSPHERE (3D renderer): weather, weather on the camera, rain ripples, time of day and
   the new SKY line, gathered in one sub-menu.
 - SKY (with DYNAMIC lighting): a real sky behind the scenery instead of the plain background, seen
@@ -23,6 +26,13 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   OPTIONS page as the menus (3D renderer), with its ATMOSPHERE and 3DFX sub-pages, the same look and
   scroll arrows. Lines that cannot change during a race (engine, resolution, format…) are greyed out.
 - The key help lines are gone from the settings pages, the network lobby and the player panels.
+
+### Fixed
+
+- DISPLAY OPTIONS no longer crashes with a settings file saved by an older version.
+- Changing TEXTURES in the settings page could switch the renderer.
+- HD textures no longer slow down the menu background race.
+- The OPTIONS page opens on its first entry at launch.
 
 ## [0.5.0-alpha] — 2026-10-30
 
