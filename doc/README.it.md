@@ -71,6 +71,12 @@ Rispetto al gioco originale del 1997:
   (le partite si trovano da sole) o via Internet (l'host apre la porta UDP 17970).
 - **Aspetto dell'edizione 3dfx** (OPZIONI → 3DFX): effetti, scenari ridisegnati, pioggia, ombre e
   colori a 16 bit dell'edizione 3dfx del 1997, uno per uno o tutti insieme.
+- **Cielo, pozzanghere e schizzi** in 3D: un vero cielo (nuvole, tramonto, stelle), pozzanghere
+  sotto la pioggia aggiunta che lo riflettono e si increspano al passaggio delle auto, e
+  schizzi d'acqua sotto le ruote.
+- **Texture HD senza download**: create al primo avvio dai vostri file del gioco.
+- **Ruote rotonde** (opzione): le ruote delle auto diventano rotonde e girano mentre l'auto
+  corre.
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 
@@ -95,7 +101,8 @@ Requisiti: Windows 10 o 11 (64 bit), una scheda grafica con DirectX 12.
 
 1. Scaricate `FunTracks-…-windows-x64.zip` dalla pagina
    [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases).
-2. Estraete `FunTracks.exe` e `fun_tracks_recomp.ini` nella cartella del gioco Fun Tracks.
+2. Estraete tutti i file dello zip (`FunTracks.exe`, `fun_tracks_recomp.ini`, `dxcompiler.dll`,
+   `dxil.dll`) nella cartella del gioco Fun Tracks.
 3. Avviate `FunTracks.exe`.
 
 Tastiera come nel gioco originale. Alt+Invio: schermo intero / finestra. F11: renderer 3D /
@@ -127,3 +134,4 @@ pausa. I tasti si cambiano nella pagina dei comandi del gioco.
 - Gioco in rete provato tra un PC e una console Android in rete locale; non ancora tra due PC né
   via Internet.
 - Multigiocatore sullo stesso schermo non ancora provato su Android.
+- Pozzanghere e schizzi non ancora provati con il gamepad su una console Android.

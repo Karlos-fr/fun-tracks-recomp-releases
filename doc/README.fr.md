@@ -71,6 +71,12 @@ Par rapport au jeu d'origine de 1997 :
   (les parties se trouvent toutes seules) ou par Internet (l'hôte ouvre le port UDP 17970).
 - **Rendu de l'édition 3dfx** (OPTIONS → 3DFX) : effets, décor redessiné, pluie, ombres et couleurs
   16 bits de l'édition 3dfx de 1997, un par un ou tous à la fois.
+- **Ciel, flaques et éclaboussures** en 3D : un vrai ciel (nuages, coucher de soleil, étoiles),
+  des flaques sous la pluie ajoutée qui le reflètent et se rident au passage des voitures, et
+  des gerbes d'eau sous les roues.
+- **Textures HD sans téléchargement** : fabriquées au premier lancement à partir de vos fichiers
+  du jeu.
+- **Roues rondes** (option) : les roues des voitures deviennent rondes et tournent en roulant.
 - **Musique du CD** jouée depuis des fichiers OGG.
 - **La même physique partout** : les courses donnent exactement les mêmes calculs sur toutes les
   plateformes.
@@ -96,7 +102,8 @@ Configuration : Windows 10 ou 11 (64 bits), une carte graphique compatible Direc
 
 1. Téléchargez `FunTracks-…-windows-x64.zip` depuis la page
    [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases).
-2. Extrayez `FunTracks.exe` et `fun_tracks_recomp.ini` dans le dossier de votre jeu Fun Tracks.
+2. Extrayez tous les fichiers du zip (`FunTracks.exe`, `fun_tracks_recomp.ini`, `dxcompiler.dll`,
+   `dxil.dll`) dans le dossier de votre jeu Fun Tracks.
 3. Lancez `FunTracks.exe`.
 
 Clavier comme dans le jeu d'origine. Alt+Entrée : plein écran / fenêtre. F11 : moteur 3D /
@@ -128,3 +135,4 @@ changent dans la page des touches du jeu.
 - Jeu en réseau essayé entre un PC et une console Android sur un réseau local ; pas encore entre
   deux PC ni par Internet.
 - Multijoueur sur le même écran pas encore essayé sur Android.
+- Flaques et éclaboussures pas encore essayées à la manette sur une console Android.

@@ -70,6 +70,10 @@ Jämfört med originalspelet från 1997:
   nätverket (spelen hittas automatiskt) eller över Internet (värden öppnar UDP-port 17970).
 - **3dfx-utgåvans utseende** (INSTÄLLNINGAR → 3DFX): effekter, omritad miljö, regn, skuggor och
   16-bitarsfärger från 3dfx-utgåvan från 1997, en i taget eller alla på en gång.
+- **Himmel, pölar och stänk** i 3D: en riktig himmel (moln, solnedgång, stjärnor), pölar i
+  tillagt regn som speglar den och krusas när bilarna kör igenom, och vattenstänk under hjulen.
+- **HD-texturer utan nedladdning**: skapas vid första starten från dina egna spelfiler.
+- **Runda hjul** (tillval): bilarnas hjul blir runda och rullar med bilen.
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
@@ -94,7 +98,8 @@ Krav: Windows 10 eller 11 (64-bitars), ett grafikkort med DirectX 12.
 
 1. Ladda ner `FunTracks-…-windows-x64.zip` från sidan
    [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases).
-2. Packa upp `FunTracks.exe` och `fun_tracks_recomp.ini` i din Fun Tracks-spelmapp.
+2. Packa upp alla filer i zip-filen (`FunTracks.exe`, `fun_tracks_recomp.ini`, `dxcompiler.dll`,
+   `dxil.dll`) i din Fun Tracks-spelmapp.
 3. Starta `FunTracks.exe`.
 
 Tangentbord som i originalspelet. Alt+Enter: helskärm / fönster. F11: 3D-renderare /
@@ -126,3 +131,4 @@ Knapparna kan ändras på spelets sida för kontroller.
 - Nätverksspel testat mellan en PC och en Android-konsol i ett lokalt nätverk; ännu inte mellan
   två PC eller över Internet.
 - Flerspelarläge på samma skärm ännu inte testat på Android.
+- Pölar och stänk ännu inte testade med handkontroll på en Android-konsol.

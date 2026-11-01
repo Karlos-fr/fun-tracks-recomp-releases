@@ -67,6 +67,10 @@ Compared with the original 1997 game:
   network (games are found automatically) or over the Internet (the host opens UDP port 17970).
 - **3dfx edition look** (OPTIONS → 3DFX): the effects, redrawn scenery, rain, shadows and 16-bit
   colours of the 1997 3dfx edition, one by one or all at once.
+- **Sky, puddles and splashes** in 3D: a real sky (clouds, sunset, stars), puddles under added
+  rain that reflect it and ripple when cars drive through, and water splashes from the wheels.
+- **HD textures without download**: made on first launch from your own game files.
+- **Round wheels** (option): the cars' wheels become round and roll with the car.
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 
@@ -90,7 +94,8 @@ Optional: the CD music can be played from OGG files named `Music/track02.ogg`,
 Requirements: Windows 10 or 11 (64-bit), a graphics card with DirectX 12.
 
 1. Download `FunTracks-…-windows-x64.zip` from the [Releases](../../releases) page.
-2. Extract `FunTracks.exe` and `fun_tracks_recomp.ini` into your Fun Tracks game folder.
+2. Extract all the files of the zip (`FunTracks.exe`, `fun_tracks_recomp.ini`, `dxcompiler.dll`,
+   `dxil.dll`) into your Fun Tracks game folder.
 3. Run `FunTracks.exe`.
 
 Keyboard as in the original game. Alt+Enter: fullscreen / window. F11: 3D renderer / original
@@ -120,3 +125,4 @@ settings page.
 - Network game tested between a PC and an Android console on a local network; not yet between
   two PCs nor over the Internet.
 - Same-screen multiplayer not yet tested on Android.
+- Puddles and splashes not yet tested with a gamepad on an Android console.

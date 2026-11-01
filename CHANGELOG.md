@@ -2,7 +2,10 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.6.0-alpha] — 2026-11-01
+
+Sixth alpha release: a real sky, puddles and splashes, HD textures made on first launch, round
+wheels, one settings page for the menus and the pause, and a faster 3D start on Windows.
 
 ### Added
 
@@ -31,6 +34,14 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   OPTIONS page as the menus (3D renderer), with its ATMOSPHERE and 3DFX sub-pages, the same look and
   scroll arrows. Lines that cannot change during a race (engine, resolution, format…) are greyed out.
 - The key help lines are gone from the settings pages, the network lobby and the player panels.
+
+### Known limitations
+
+- Puddles and splashes tested on PC, not yet with a gamepad on an Android console.
+- Network game tested between a PC and an Android console on the same Wi-Fi network, not yet
+  between two PCs nor over the Internet with real players.
+- Android: same-screen multiplayer not yet tested on a device; game files must be copied to the
+  device by hand.
 
 ### Fixed
 
@@ -319,6 +330,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.6.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.6.0-alpha
 [0.5.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.5.0-alpha
 [0.4.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.4.0-alpha
 [0.3.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.3.0-alpha

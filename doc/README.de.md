@@ -71,6 +71,11 @@ Im Vergleich zum Originalspiel von 1997:
   Netz (Spiele werden automatisch gefunden) oder über das Internet (der Host öffnet UDP-Port 17970).
 - **Look der 3dfx-Version** (OPTIONEN → 3DFX): Effekte, neu gezeichnete Kulissen, Regen, Schatten
   und 16-Bit-Farben der 3dfx-Version von 1997, einzeln oder alle zusammen.
+- **Himmel, Pfützen und Spritzwasser** in 3D: ein echter Himmel (Wolken, Sonnenuntergang,
+  Sterne), Pfützen bei zusätzlichem Regen, die ihn spiegeln und sich kräuseln, wenn Autos
+  hindurchfahren, und Wasserfontänen unter den Rädern.
+- **HD-Texturen ohne Download**: beim ersten Start aus deinen eigenen Spieldateien erzeugt.
+- **Runde Räder** (Option): die Räder der Autos werden rund und drehen sich beim Fahren.
 - **CD-Musik** aus OGG-Dateien.
 - **Überall dieselbe Physik**: Rennen rechnen auf jeder Plattform exakt gleich.
 
@@ -95,7 +100,8 @@ Voraussetzungen: Windows 10 oder 11 (64-Bit), eine Grafikkarte mit DirectX 12.
 
 1. Lade `FunTracks-…-windows-x64.zip` von der Seite
    [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) herunter.
-2. Entpacke `FunTracks.exe` und `fun_tracks_recomp.ini` in deinen Fun-Tracks-Spielordner.
+2. Entpacke alle Dateien des Zip-Archivs (`FunTracks.exe`, `fun_tracks_recomp.ini`,
+   `dxcompiler.dll`, `dxil.dll`) in deinen Fun-Tracks-Spielordner.
 3. Starte `FunTracks.exe`.
 
 Tastatur wie im Originalspiel. Alt+Eingabe: Vollbild / Fenster. F11: 3D-Renderer /
@@ -126,3 +132,4 @@ lassen sich auf der Tastenseite des Spiels ändern.
 - Netzwerkspiel zwischen einem PC und einer Android-Konsole im lokalen Netz getestet; noch nicht
   zwischen zwei PCs oder über das Internet.
 - Mehrspielermodus am selben Bildschirm unter Android noch nicht getestet.
+- Pfützen und Spritzwasser noch nicht mit Gamepad auf einer Android-Konsole getestet.

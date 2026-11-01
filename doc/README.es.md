@@ -72,6 +72,11 @@ Respecto al juego original de 1997:
   partidas se encuentran solas) o por Internet (el anfitrión abre el puerto UDP 17970).
 - **Aspecto de la edición 3dfx** (OPCIONES → 3DFX): efectos, decorados redibujados, lluvia, sombras
   y colores de 16 bits de la edición 3dfx de 1997, uno a uno o todos a la vez.
+- **Cielo, charcos y salpicaduras** en 3D: un cielo de verdad (nubes, puesta de sol,
+  estrellas), charcos bajo la lluvia añadida que lo reflejan y se rizan al pasar los coches, y
+  salpicaduras de agua bajo las ruedas.
+- **Texturas HD sin descarga**: creadas en el primer arranque a partir de tus archivos del juego.
+- **Ruedas redondas** (opción): las ruedas de los coches se vuelven redondas y giran al rodar.
 - **Música del CD** reproducida desde archivos OGG.
 - **La misma física en todas partes**: las carreras calculan exactamente lo mismo en cada
   plataforma.
@@ -97,7 +102,8 @@ Requisitos: Windows 10 u 11 (64 bits), una tarjeta gráfica con DirectX 12.
 
 1. Descarga `FunTracks-…-windows-x64.zip` desde la página
    [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases).
-2. Extrae `FunTracks.exe` y `fun_tracks_recomp.ini` en la carpeta de tu juego Fun Tracks.
+2. Extrae todos los archivos del zip (`FunTracks.exe`, `fun_tracks_recomp.ini`, `dxcompiler.dll`,
+   `dxil.dll`) en la carpeta de tu juego Fun Tracks.
 3. Ejecuta `FunTracks.exe`.
 
 Teclado como en el juego original. Alt+Intro: pantalla completa / ventana. F11: motor 3D / motor
@@ -128,3 +134,4 @@ en la página de controles del juego.
 - Juego en red probado entre un PC y una consola Android en una red local; aún no entre dos PC
   ni por Internet.
 - Multijugador en la misma pantalla aún no probado en Android.
+- Charcos y salpicaduras aún no probados con mando en una consola Android.
