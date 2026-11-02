@@ -18,9 +18,16 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   multiply-add on ARM).
 - HD texture packs are made only when the 3D renderer is chosen (at launch, or when switching to
   3D): with the 2D renderer they kept the computer busy for nothing.
+- Player options: CONTROLS is now KEYBOARD or CONTROLLER, the same setting as the player's device
+  in PLAYERS. The 1997 joystick, pedals and joypad modes, with their fixed buttons, are gone with
+  their calibration pages; a settings file using them switches to CONTROLLER. With a controller,
+  steering, accelerator and brake are progressive (stick and triggers).
 
 ### Fixed
 
+- Controller buttons changed in PLAYERS were ignored in races when CONTROLS was set to a joystick
+  mode: A and B kept accelerating and braking, the stick gave turbo and rear view, and the
+  triggers did nothing.
 - Steam and GOG releases (Ignition, the English edition of the game): the game stopped on a white
   screen after the first two intro videos, because Ignition names its intro videos differently.
 
