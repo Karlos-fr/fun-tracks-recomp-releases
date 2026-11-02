@@ -77,6 +77,12 @@ Par rapport au jeu d'origine de 1997 :
 - **Textures HD sans téléchargement** : fabriquées au premier lancement à partir de vos fichiers
   du jeu.
 - **Roues rondes** (option) : les roues des voitures deviennent rondes et tournent en roulant.
+- **Lumière, lune et reflets** en 3D : une lumière qui suit la hauteur du soleil, des ombres
+  sur deux niveaux, une lune et ses phases, des carrosseries et des vitres qui reflètent le ciel,
+  des mers et des rivières qui se comportent comme de l'eau, et une touche pour les phares.
+- **Windows** : la fenêtre s'ouvre tout de suite pendant que le moteur 3D se prépare, et le jeu
+  cherche une nouvelle version au lancement, montre ses notes et l'installe en un clic
+  (désactivable).
 - **Musique du CD** jouée depuis des fichiers OGG.
 - **La même physique partout** : les courses donnent exactement les mêmes calculs sur toutes les
   plateformes.
@@ -127,7 +133,7 @@ Pour utiliser le moteur 3D, copiez aussi `fun_tracks_recomp.ini` (depuis le zip 
 dossier.
 
 Manette : stick / croix pour diriger et se déplacer dans les menus, A pour accélérer ou valider,
-B pour freiner ou revenir, X turbo, LB / RB vitesses, Y vue arrière, Start pause. Les boutons se
+B pour freiner ou revenir, X turbo, LB / RB vitesses, Y vue arrière, croix haut phares, Start pause. Les boutons se
 changent dans la page des touches du jeu.
 
 ## Limites connues (alpha)
@@ -135,4 +141,7 @@ changent dans la page des touches du jeu.
 - Jeu en réseau essayé entre un PC et une console Android sur un réseau local ; pas encore entre
   deux PC ni par Internet.
 - Multijoueur sur le même écran pas encore essayé sur Android.
-- Flaques et éclaboussures pas encore essayées à la manette sur une console Android.
+- Flaques, éclaboussures, atmosphère et reflets pas encore essayés à la manette sur une
+  console Android.
+- La mise à jour automatique commence avec la 0.7.0 : l'installer à la main par-dessus une
+  version plus ancienne.

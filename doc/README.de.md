@@ -76,6 +76,12 @@ Im Vergleich zum Originalspiel von 1997:
   hindurchfahren, und Wasserfontänen unter den Rädern.
 - **HD-Texturen ohne Download**: beim ersten Start aus deinen eigenen Spieldateien erzeugt.
 - **Runde Räder** (Option): die Räder der Autos werden rund und drehen sich beim Fahren.
+- **Licht, Mond und Spiegelungen** in 3D: Licht, das dem Sonnenstand folgt, Schatten in zwei
+  Stufen, ein Mond mit seinen Phasen, Lack und Scheiben, die den Himmel spiegeln, Meere und
+  Flüsse, die sich wie Wasser verhalten, und eine Taste für die Scheinwerfer.
+- **Windows**: das Fenster öffnet sich sofort, während der 3D-Renderer startet, und das Spiel
+  sucht beim Start nach einer neuen Version, zeigt ihre Notizen und installiert sie mit einem
+  Klick (abschaltbar).
 - **CD-Musik** aus OGG-Dateien.
 - **Überall dieselbe Physik**: Rennen rechnen auf jeder Plattform exakt gleich.
 
@@ -124,7 +130,7 @@ Tasten (getestet auf der AYN Odin 2 Portal); ein Gamepad ist nötig.
 Für den 3D-Renderer kopiere auch `fun_tracks_recomp.ini` (aus dem Windows-Zip) in diesen Ordner.
 
 Gamepad: Stick / Steuerkreuz zum Lenken und für die Menüs, A zum Beschleunigen oder Bestätigen,
-B zum Bremsen oder Zurückgehen, X Turbo, LB / RB Gänge, Y Rückansicht, Start Pause. Die Tasten
+B zum Bremsen oder Zurückgehen, X Turbo, LB / RB Gänge, Y Rückansicht, Steuerkreuz oben Scheinwerfer, Start Pause. Die Tasten
 lassen sich auf der Tastenseite des Spiels ändern.
 
 ## Bekannte Einschränkungen (Alpha)
@@ -132,4 +138,7 @@ lassen sich auf der Tastenseite des Spiels ändern.
 - Netzwerkspiel zwischen einem PC und einer Android-Konsole im lokalen Netz getestet; noch nicht
   zwischen zwei PCs oder über das Internet.
 - Mehrspielermodus am selben Bildschirm unter Android noch nicht getestet.
-- Pfützen und Spritzwasser noch nicht mit Gamepad auf einer Android-Konsole getestet.
+- Pfützen, Spritzwasser, Atmosphäre und Spiegelungen noch nicht mit Gamepad auf einer
+  Android-Konsole getestet.
+- Die automatische Aktualisierung beginnt mit 0.7.0: diese Version von Hand über eine ältere
+  installieren.

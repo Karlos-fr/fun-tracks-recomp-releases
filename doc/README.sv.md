@@ -74,6 +74,11 @@ Jämfört med originalspelet från 1997:
   tillagt regn som speglar den och krusas när bilarna kör igenom, och vattenstänk under hjulen.
 - **HD-texturer utan nedladdning**: skapas vid första starten från dina egna spelfiler.
 - **Runda hjul** (tillval): bilarnas hjul blir runda och rullar med bilen.
+- **Ljus, måne och reflexer** i 3D: ljus som följer solens höjd, skuggor i två nivåer, en måne
+  med sina faser, lack och rutor som speglar himlen, hav och floder som beter sig som vatten, och
+  en knapp för strålkastarna.
+- **Windows**: fönstret öppnas direkt medan 3D-renderaren förbereds, och spelet letar efter en ny
+  version vid start, visar dess anteckningar och installerar den med ett klick (kan stängas av).
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
@@ -123,7 +128,7 @@ För att använda 3D-renderaren, kopiera också `fun_tracks_recomp.ini` (från W
 den mappen.
 
 Handkontroll: spak / styrkors för att styra och röra sig i menyerna, A för att gasa eller
-bekräfta, B för att bromsa eller gå tillbaka, X turbo, LB / RB växlar, Y backspegel, Start paus.
+bekräfta, B för att bromsa eller gå tillbaka, X turbo, LB / RB växlar, Y backspegel, styrkors upp strålkastare, Start paus.
 Knapparna kan ändras på spelets sida för kontroller.
 
 ## Kända begränsningar (alfa)
@@ -131,4 +136,5 @@ Knapparna kan ändras på spelets sida för kontroller.
 - Nätverksspel testat mellan en PC och en Android-konsol i ett lokalt nätverk; ännu inte mellan
   två PC eller över Internet.
 - Flerspelarläge på samma skärm ännu inte testat på Android.
-- Pölar och stänk ännu inte testade med handkontroll på en Android-konsol.
+- Pölar, stänk, atmosfär och reflexer ännu inte testade med handkontroll på en Android-konsol.
+- Den automatiska uppdateringen börjar med 0.7.0: installera den för hand över en äldre version.

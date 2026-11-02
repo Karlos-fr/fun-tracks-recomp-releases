@@ -2,7 +2,11 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.7.0-alpha] — 2026-11-02
+
+Seventh alpha release: realistic light with a moon and its phases, two-level shadows, reflective car
+paint and water, a headlights key, a 3D start in the background with a progress capsule, and an
+update check on Windows.
 
 ### Added
 
@@ -12,6 +16,11 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   height of the sun, so the scenery looks right at any time of day.
 - Sliders in the settings pages for amounts (sun position, shadow softness, glow, clouds, rain,
   wind…); RELIEF becomes a slider too.
+- Car paint reflections (with REFLECTIONS): cars mirror the sky and the ground with a horizon line,
+  more at grazing angles, and catch glints from the sun or the moon; metallic paint tints its
+  reflections and sparkles in the sun, windows are darker and more mirror-like.
+- Water (with REFLECTIONS): seas, lakes and rivers behave like the puddles, reflecting the sky and
+  the scenery, with waves, a slow swell and sun glints (Snake Island's sea included).
 - A moon in the night sky, lighting the track with a bluish moonlight; MOON PHASE chooses how much
   of it is lit, from a thin crescent to a full moon.
 - Windows: at launch, the game checks GitHub for a newer version and shows its release notes; INSTALL
@@ -25,8 +34,22 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Changed
 
+- Faster start with the 3D renderer on Windows: the window opens at once and the logo and intro play
+  while the 3D renderer gets ready in the background (PREPARING 3D and a progress capsule at the bottom), then the
+  game switches to 3D without a flash.
 - Shadows use two maps: a fine one around the camera for sharper shadows, and a wide one for the
   distance, blended into each other, so long shadows of cliffs and buildings are drawn in full.
+- REFLECTIONS cost less (about 1 to 2 ms per frame on a GTX 1050), with the same picture: the sky
+  is no longer computed for dry ground, and water skips the work it does not need.
+
+### Known limitations
+
+- The update check starts with this version: from 0.6.0 or older, install 0.7.0 by hand.
+- Atmosphere, car and water reflections tested on PC, not yet with a gamepad on an Android console.
+- Network game tested between a PC and an Android console on the same Wi-Fi network, not yet
+  between two PCs nor over the Internet with real players.
+- Android: same-screen multiplayer not yet tested on a device; game files must be copied to the
+  device by hand.
 
 ### Fixed
 
@@ -365,6 +388,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.7.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.7.0-alpha
 [0.6.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.6.0-alpha
 [0.5.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.5.0-alpha
 [0.4.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.4.0-alpha

@@ -71,6 +71,11 @@ Compared with the original 1997 game:
   rain that reflect it and ripple when cars drive through, and water splashes from the wheels.
 - **HD textures without download**: made on first launch from your own game files.
 - **Round wheels** (option): the cars' wheels become round and roll with the car.
+- **Light, moon and reflections** in 3D: light that follows the height of the sun, two-level
+  shadows, a moon with its phases, car paint and windows that reflect the sky, seas and rivers
+  that behave like water, and a headlights key.
+- **Windows**: the window opens at once while the 3D renderer gets ready, and the game checks for
+  a new version at launch, shows its notes and installs it in one click (can be turned off).
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 
@@ -117,7 +122,7 @@ Requirements: Android 10 or later, 64-bit ARM device. Made for handheld consoles
 To use the 3D renderer, also copy `fun_tracks_recomp.ini` (from the Windows zip) into that folder.
 
 Gamepad: stick / d-pad to steer and move in menus, A to accelerate or confirm, B to brake or go
-back, X turbo, LB / RB gears, Y rear view, Start pause. Buttons can be changed in the game's key
+back, X turbo, LB / RB gears, Y rear view, d-pad up headlights, Start pause. Buttons can be changed in the game's key
 settings page.
 
 ## Known limitations (alpha)
@@ -125,4 +130,6 @@ settings page.
 - Network game tested between a PC and an Android console on a local network; not yet between
   two PCs nor over the Internet.
 - Same-screen multiplayer not yet tested on Android.
-- Puddles and splashes not yet tested with a gamepad on an Android console.
+- Puddles, splashes, atmosphere and reflections not yet tested with a gamepad on an Android
+  console.
+- The automatic update starts with 0.7.0: install it by hand over an older version.

@@ -77,6 +77,11 @@ Rispetto al gioco originale del 1997:
 - **Texture HD senza download**: create al primo avvio dai vostri file del gioco.
 - **Ruote rotonde** (opzione): le ruote delle auto diventano rotonde e girano mentre l'auto
   corre.
+- **Luce, luna e riflessi** in 3D: una luce che segue l'altezza del sole, ombre su due livelli,
+  una luna con le sue fasi, carrozzerie e finestrini che riflettono il cielo, mari e fiumi che si
+  comportano come acqua, e un tasto per i fari.
+- **Windows**: la finestra si apre subito mentre il motore 3D si prepara, e il gioco cerca una
+  nuova versione all'avvio, ne mostra le note e la installa con un clic (disattivabile).
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 
@@ -126,12 +131,15 @@ Per usare il renderer 3D, copiate anche `fun_tracks_recomp.ini` (dallo zip per W
 cartella.
 
 Gamepad: levetta / croce direzionale per sterzare e muoversi nei menu, A per accelerare o
-confermare, B per frenare o tornare indietro, X turbo, LB / RB marce, Y vista posteriore, Start
-pausa. I tasti si cambiano nella pagina dei comandi del gioco.
+confermare, B per frenare o tornare indietro, X turbo, LB / RB marce, Y vista posteriore, croce
+su fari, Start pausa. I tasti si cambiano nella pagina dei comandi del gioco.
 
 ## Limiti noti (alpha)
 
 - Gioco in rete provato tra un PC e una console Android in rete locale; non ancora tra due PC né
   via Internet.
 - Multigiocatore sullo stesso schermo non ancora provato su Android.
-- Pozzanghere e schizzi non ancora provati con il gamepad su una console Android.
+- Pozzanghere, schizzi, atmosfera e riflessi non ancora provati con il gamepad su una console
+  Android.
+- L'aggiornamento automatico parte dalla 0.7.0: installarla a mano sopra una versione
+  precedente.

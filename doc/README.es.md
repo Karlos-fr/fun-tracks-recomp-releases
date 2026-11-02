@@ -77,6 +77,11 @@ Respecto al juego original de 1997:
   salpicaduras de agua bajo las ruedas.
 - **Texturas HD sin descarga**: creadas en el primer arranque a partir de tus archivos del juego.
 - **Ruedas redondas** (opción): las ruedas de los coches se vuelven redondas y giran al rodar.
+- **Luz, luna y reflejos** en 3D: una luz que sigue la altura del sol, sombras en dos niveles,
+  una luna con sus fases, carrocerías y ventanillas que reflejan el cielo, mares y ríos que se
+  comportan como agua, y una tecla para los faros.
+- **Windows**: la ventana se abre enseguida mientras se prepara el motor 3D, y el juego busca una
+  versión nueva al arrancar, muestra sus notas y la instala con un clic (desactivable).
 - **Música del CD** reproducida desde archivos OGG.
 - **La misma física en todas partes**: las carreras calculan exactamente lo mismo en cada
   plataforma.
@@ -126,7 +131,7 @@ con botones (probado en la AYN Odin 2 Portal); hace falta un mando.
 Para usar el motor 3D, copia también `fun_tracks_recomp.ini` (del zip de Windows) en esa carpeta.
 
 Mando: stick / cruceta para girar y moverse por los menús, A para acelerar o confirmar, B para
-frenar o volver, X turbo, LB / RB marchas, Y vista trasera, Start pausa. Los botones se cambian
+frenar o volver, X turbo, LB / RB marchas, Y vista trasera, cruceta arriba faros, Start pausa. Los botones se cambian
 en la página de controles del juego.
 
 ## Limitaciones conocidas (alfa)
@@ -134,4 +139,7 @@ en la página de controles del juego.
 - Juego en red probado entre un PC y una consola Android en una red local; aún no entre dos PC
   ni por Internet.
 - Multijugador en la misma pantalla aún no probado en Android.
-- Charcos y salpicaduras aún no probados con mando en una consola Android.
+- Charcos, salpicaduras, atmósfera y reflejos aún no probados con mando en una consola
+  Android.
+- La actualización automática empieza con la 0.7.0: instalarla a mano sobre una versión
+  anterior.
