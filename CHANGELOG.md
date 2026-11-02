@@ -2,6 +2,28 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Added
+
+- Linux ARM64 test build for handhelds with PortMaster (Anbernic RG35XX family and others):
+  [testing/linux-portmaster](testing/linux-portmaster), not a release yet. The 3D renderer works
+  on Linux too (Wayland or X11, with Vulkan); without Vulkan the game goes back to the 2D renderer
+  by itself.
+
+### Changed
+
+- Races compute exactly the same on every platform: random draws now follow the sequence of the
+  original 1997 game everywhere, and Android and Linux do their maths like Windows (no fused
+  multiply-add on ARM).
+- HD texture packs are made only when the 3D renderer is chosen (at launch, or when switching to
+  3D): with the 2D renderer they kept the computer busy for nothing.
+
+### Fixed
+
+- Steam and GOG releases (Ignition, the English edition of the game): the game stopped on a white
+  screen after the first two intro videos, because Ignition names its intro videos differently.
+
 ## [0.7.0-alpha] — 2026-11-02
 
 Seventh alpha release: realistic light with a moon and its phases, two-level shadows, reflective car
