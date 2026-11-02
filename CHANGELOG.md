@@ -2,6 +2,41 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased] — next alpha
+
+### Added
+
+- OPTIONS → ATMOSPHERE, new lines (3D renderer, DYNAMIC lighting): LIGHT (soft or realistic),
+  SUN HEIGHT and SUN DIRECTION, SOFT SHADOWS, FILM LOOK, GLOW, LIGHT RAYS, AMBIENT SHADING,
+  CLOUDS, RAIN AMOUNT and WIND. Realistic light takes its colour, sky light and exposure from the
+  height of the sun, so the scenery looks right at any time of day.
+- Sliders in the settings pages for amounts (sun position, shadow softness, glow, clouds, rain,
+  wind…); RELIEF becomes a slider too.
+- A moon in the night sky, lighting the track with a bluish moonlight; MOON PHASE chooses how much
+  of it is lit, from a thin crescent to a full moon.
+- Windows: at launch, the game checks GitHub for a newer version and shows its release notes; INSTALL
+  AND RESTART downloads its zip, unpacks it, closes the game, puts the new files in place (your
+  settings file is kept) and restarts. UPDATES in DISPLAY OPTIONS turns the check off.
+- HEADLIGHTS key to switch your car's headlights on or off (L for player 1, X for player 2, D-pad up
+  on a gamepad), set like the other keys in the player settings. They are on at night and off by day
+  when the race starts.
+- RAIN AMOUNT also sets the puddles and the drops hitting the ground: small, rare puddles in a
+  drizzle, wide ones and many ripples in a downpour.
+
+### Changed
+
+- Shadows use two maps: a fine one around the camera for sharper shadows, and a wide one for the
+  distance, blended into each other, so long shadows of cliffs and buildings are drawn in full.
+
+### Fixed
+
+- The shadow of a tall cliff grew longer as the camera came closer.
+- With the 3dfx effects, the arrow above the player's car at the start was an orange square.
+- With the 3dfx shadows, the car's original shadow stayed under it next to the dynamic shadow.
+- The menus no longer close to show the credits while the background race is running.
+- Widescreen: the closing circle of the menus only covered the top-left corner, and the opening
+  circle of a race ended abruptly on the sides.
+
 ## [0.6.0-alpha] — 2026-11-01
 
 Sixth alpha release: a real sky, puddles and splashes, HD textures made on first launch, round
