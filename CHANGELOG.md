@@ -31,12 +31,12 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 ### Changed
 
 - Texture packs (3D renderer), reworked. A pack is a folder in `packs/` next to the game files, chosen
-  in the graphics options: the TEXTURES line now lists ORIGINAL and the packs found. A pack can
-  replace any texture page of the cars, scenery and effects, and the race HUD (counters, digits,
-  fonts), with images of any size as long as they are square like the page they replace; pages it
-  lacks stay original. `tools/make_pack.py` builds a pack from whole pages or from single elements
-  (a glyph, a counter), and `FT_PACK_DUMP=<folder>` makes the game write the HUD pages it shows, as a
-  starting point. The menus are not covered yet.
+  in the graphics options: the TEXTURES line now lists ORIGINAL and the packs found. A pack follows
+  the paths of the game files, one image per image in the file: `CARS/Cars.tex/00.png` replaces the
+  first page of `CARS/Cars.tex`. Images can have any size as long as they keep the proportions of the
+  original; whatever a pack lacks stays original. It covers the textures of the cars, scenery and
+  effects for now; the HUD and the menus come next. `tools/dump_textures.py` writes the original
+  pages under these names and `tools/make_pack.py` builds a pack from page images.
 
 ### Removed
 
