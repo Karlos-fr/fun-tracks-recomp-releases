@@ -12,6 +12,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Graphics options: SUSPENSION (3D renderer). As in the DOS version, the car bodies lean out of
   curves, dip under braking and lift when accelerating, while the wheels stay on the road. It
   changes only the picture, not the race.
+- Menus: holding an arrow key (or the D-pad) keeps moving through the menu, after a short delay,
+  about nine times a second.
 
 ### Fixed
 
