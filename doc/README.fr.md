@@ -83,6 +83,11 @@ Par rapport au jeu d'origine de 1997 :
 - **Windows** : la fenêtre s'ouvre tout de suite pendant que le moteur 3D se prépare, et le jeu
   cherche une nouvelle version au lancement, montre ses notes et l'installe en un clic
   (désactivable).
+- **Images fluides** en 3D : 60, 120 ou 144 images par seconde, ou le rythme de l'écran
+  (IMAGES/SECONDE), la course gardant les 36 pas par seconde de 1997, sans retard des commandes.
+- **Manette moderne** : stick et gâchettes progressifs, chaque action se règle dans les réglages
+  des joueurs.
+- **Linux** : une version d'essai pour les consoles portables avec PortMaster.
 - **Musique du CD** jouée depuis des fichiers OGG.
 - **La même physique partout** : les courses donnent exactement les mêmes calculs sur toutes les
   plateformes.
@@ -135,6 +140,7 @@ dossier.
 Manette : stick / croix pour diriger et se déplacer dans les menus, A pour accélérer ou valider,
 B pour freiner ou revenir, X turbo, LB / RB vitesses, Y vue arrière, croix haut phares, Start pause. Les boutons se
 changent dans la page des touches du jeu.
+En course, la gâchette droite accélère et la gauche freine, progressivement.
 
 ## Limites connues (alpha)
 
@@ -145,3 +151,5 @@ changent dans la page des touches du jeu.
   console Android.
 - La mise à jour automatique commence avec la 0.7.0 : l'installer à la main par-dessus une
   version plus ancienne.
+- Les rythmes au-delà de 60 images par seconde ne sont pas encore mesurés sur des écrans 120 et
+  144 Hz ; la version Linux est une version d'essai.

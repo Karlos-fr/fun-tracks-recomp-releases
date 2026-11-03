@@ -82,6 +82,12 @@ Im Vergleich zum Originalspiel von 1997:
 - **Windows**: das Fenster öffnet sich sofort, während der 3D-Renderer startet, und das Spiel
   sucht beim Start nach einer neuen Version, zeigt ihre Notizen und installiert sie mit einem
   Klick (abschaltbar).
+- **Flüssige Bildrate** in 3D: 60, 120 oder 144 Bilder pro Sekunde oder die Frequenz des
+  Bildschirms (BILDRATE), während das Rennen die 36 Schritte pro Sekunde von 1997 behält, ohne
+  Eingabeverzögerung.
+- **Moderner Controller**: Stick und Trigger stufenlos, jede Aktion in den Spielereinstellungen
+  frei belegbar.
+- **Linux**: eine Testversion für Handhelds mit PortMaster.
 - **CD-Musik** aus OGG-Dateien.
 - **Überall dieselbe Physik**: Rennen rechnen auf jeder Plattform exakt gleich.
 
@@ -132,6 +138,7 @@ Für den 3D-Renderer kopiere auch `fun_tracks_recomp.ini` (aus dem Windows-Zip) 
 Gamepad: Stick / Steuerkreuz zum Lenken und für die Menüs, A zum Beschleunigen oder Bestätigen,
 B zum Bremsen oder Zurückgehen, X Turbo, LB / RB Gänge, Y Rückansicht, Steuerkreuz oben Scheinwerfer, Start Pause. Die Tasten
 lassen sich auf der Tastenseite des Spiels ändern.
+Im Rennen beschleunigt der rechte Trigger und der linke bremst, stufenlos.
 
 ## Bekannte Einschränkungen (Alpha)
 
@@ -142,3 +149,5 @@ lassen sich auf der Tastenseite des Spiels ändern.
   Android-Konsole getestet.
 - Die automatische Aktualisierung beginnt mit 0.7.0: diese Version von Hand über eine ältere
   installieren.
+- Bildraten über 60 noch nicht auf 120- und 144-Hz-Bildschirmen gemessen; die Linux-Version ist
+  eine Testversion.

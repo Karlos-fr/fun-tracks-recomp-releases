@@ -82,6 +82,12 @@ Respecto al juego original de 1997:
   comportan como agua, y una tecla para los faros.
 - **Windows**: la ventana se abre enseguida mientras se prepara el motor 3D, y el juego busca una
   versión nueva al arrancar, muestra sus notas y la instala con un clic (desactivable).
+- **Imagen fluida** en 3D: 60, 120 o 144 imágenes por segundo, o la frecuencia de la pantalla
+  (IMAGENES/SEG), mientras la carrera mantiene los 36 pasos por segundo de 1997, sin retraso en
+  los controles.
+- **Mando moderno**: stick y gatillos progresivos, cada acción se puede reasignar en los ajustes
+  de los jugadores.
+- **Linux**: una versión de prueba para consolas portátiles con PortMaster.
 - **Música del CD** reproducida desde archivos OGG.
 - **La misma física en todas partes**: las carreras calculan exactamente lo mismo en cada
   plataforma.
@@ -133,6 +139,7 @@ Para usar el motor 3D, copia también `fun_tracks_recomp.ini` (del zip de Window
 Mando: stick / cruceta para girar y moverse por los menús, A para acelerar o confirmar, B para
 frenar o volver, X turbo, LB / RB marchas, Y vista trasera, cruceta arriba faros, Start pausa. Los botones se cambian
 en la página de controles del juego.
+En carrera, el gatillo derecho acelera y el izquierdo frena, de forma progresiva.
 
 ## Limitaciones conocidas (alfa)
 
@@ -143,3 +150,5 @@ en la página de controles del juego.
   Android.
 - La actualización automática empieza con la 0.7.0: instalarla a mano sobre una versión
   anterior.
+- Las frecuencias por encima de 60 imágenes por segundo aún no se han medido en pantallas de 120 y
+  144 Hz; la versión para Linux es una versión de prueba.

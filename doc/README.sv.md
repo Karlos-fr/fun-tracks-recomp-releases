@@ -79,6 +79,12 @@ Jämfört med originalspelet från 1997:
   en knapp för strålkastarna.
 - **Windows**: fönstret öppnas direkt medan 3D-renderaren förbereds, och spelet letar efter en ny
   version vid start, visar dess anteckningar och installerar den med ett klick (kan stängas av).
+- **Mjuk bildfrekvens** i 3D: 60, 120 eller 144 bilder per sekund, eller skärmens frekvens
+  (BILDER/SEK), medan loppet behåller 1997 års 36 steg per sekund, utan fördröjning i
+  kontrollerna.
+- **Modern handkontroll**: stegslös spak och avtryckare, varje funktion kan ändras i
+  spelarinställningarna.
+- **Linux**: en testversion för handhållna konsoler med PortMaster.
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
@@ -130,6 +136,7 @@ den mappen.
 Handkontroll: spak / styrkors för att styra och röra sig i menyerna, A för att gasa eller
 bekräfta, B för att bromsa eller gå tillbaka, X turbo, LB / RB växlar, Y backspegel, styrkors upp strålkastare, Start paus.
 Knapparna kan ändras på spelets sida för kontroller.
+I loppet gasar höger avtryckare och vänster bromsar, stegslöst.
 
 ## Kända begränsningar (alfa)
 
@@ -138,3 +145,5 @@ Knapparna kan ändras på spelets sida för kontroller.
 - Flerspelarläge på samma skärm ännu inte testat på Android.
 - Pölar, stänk, atmosfär och reflexer ännu inte testade med handkontroll på en Android-konsol.
 - Den automatiska uppdateringen börjar med 0.7.0: installera den för hand över en äldre version.
+- Bildfrekvenser över 60 är ännu inte uppmätta på skärmar med 120 och 144 Hz; Linux-versionen är
+  en testversion.

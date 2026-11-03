@@ -2,7 +2,11 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased] — next alpha
+## [0.8.0-alpha] — 2026-11-03
+
+Eighth alpha release: smooth frame rate beyond 36 images per second in 3D, a modern controller with
+progressive stick and triggers, a Linux test build for handhelds, the Steam and GOG intro fixed, and a
+clear message instead of a crash when a game file is missing.
 
 ### Added
 
@@ -32,6 +36,13 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   linker on the 64-bit and 32-bit builds), sizes and counts are written in decimal, and no name
   in the C code carries an address of the original program any more. Every routine now has a
   complete comment (parameters and returned value).
+
+### Known limitations
+
+- Frame rates above 60 tested in races and in the menus, not yet measured on 120 and 144 Hz screens.
+- Linux: a test build, not yet tried on a real handheld.
+- Network game tested between a PC and an Android console on the same Wi-Fi network, not yet
+  between two PCs nor over the Internet with real players.
 
 ### Fixed
 
@@ -431,6 +442,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.8.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.8.0-alpha
 [0.7.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.7.0-alpha
 [0.6.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.6.0-alpha
 [0.5.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.5.0-alpha

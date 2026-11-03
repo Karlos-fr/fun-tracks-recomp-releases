@@ -76,6 +76,11 @@ Compared with the original 1997 game:
   that behave like water, and a headlights key.
 - **Windows**: the window opens at once while the 3D renderer gets ready, and the game checks for
   a new version at launch, shows its notes and installs it in one click (can be turned off).
+- **Smooth frame rate** in 3D: 60, 120 or 144 images per second, or the screen's rate (FRAME
+  RATE), while the race keeps the 36 steps per second of 1997 and adds no input delay.
+- **Modern controller**: progressive stick and triggers, every action can be remapped in the
+  player settings.
+- **Linux**: a test build for handhelds with PortMaster.
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 
@@ -124,6 +129,7 @@ To use the 3D renderer, also copy `fun_tracks_recomp.ini` (from the Windows zip)
 Gamepad: stick / d-pad to steer and move in menus, A to accelerate or confirm, B to brake or go
 back, X turbo, LB / RB gears, Y rear view, d-pad up headlights, Start pause. Buttons can be changed in the game's key
 settings page.
+In races, the right trigger accelerates and the left trigger brakes, progressively.
 
 ## Known limitations (alpha)
 
@@ -133,3 +139,5 @@ settings page.
 - Puddles, splashes, atmosphere and reflections not yet tested with a gamepad on an Android
   console.
 - The automatic update starts with 0.7.0: install it by hand over an older version.
+- Frame rates above 60 not yet measured on 120 and 144 Hz screens; the Linux build is a test
+  version.

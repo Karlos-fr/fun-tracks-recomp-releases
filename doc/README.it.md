@@ -82,6 +82,12 @@ Rispetto al gioco originale del 1997:
   comportano come acqua, e un tasto per i fari.
 - **Windows**: la finestra si apre subito mentre il motore 3D si prepara, e il gioco cerca una
   nuova versione all'avvio, ne mostra le note e la installa con un clic (disattivabile).
+- **Fotogrammi fluidi** in 3D: 60, 120 o 144 fotogrammi al secondo, o la frequenza dello schermo
+  (FOTOGRAMMI/SEC), mentre la gara mantiene i 36 passi al secondo del 1997, senza ritardo dei
+  comandi.
+- **Controller moderno**: levetta e grilletti progressivi, ogni azione riassegnabile nelle
+  impostazioni dei giocatori.
+- **Linux**: una versione di prova per console portatili con PortMaster.
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 
@@ -133,6 +139,7 @@ cartella.
 Gamepad: levetta / croce direzionale per sterzare e muoversi nei menu, A per accelerare o
 confermare, B per frenare o tornare indietro, X turbo, LB / RB marce, Y vista posteriore, croce
 su fari, Start pausa. I tasti si cambiano nella pagina dei comandi del gioco.
+In gara il grilletto destro accelera e quello sinistro frena, in modo progressivo.
 
 ## Limiti noti (alpha)
 
@@ -143,3 +150,5 @@ su fari, Start pausa. I tasti si cambiano nella pagina dei comandi del gioco.
   Android.
 - L'aggiornamento automatico parte dalla 0.7.0: installarla a mano sopra una versione
   precedente.
+- Le frequenze oltre 60 fotogrammi al secondo non sono ancora misurate su schermi a 120 e 144 Hz;
+  la versione Linux è una versione di prova.
