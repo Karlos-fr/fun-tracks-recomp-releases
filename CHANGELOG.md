@@ -30,7 +30,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   steering, accelerator and brake are progressive (stick and triggers).
 - Code cleanup, with no change in the game: code that nothing used is removed (measured by the
   linker on the 64-bit and 32-bit builds), sizes and counts are written in decimal, and no name
-  in the C code carries an address of the original program any more.
+  in the C code carries an address of the original program any more. Every routine now has a
+  complete comment (parameters and returned value).
 
 ### Fixed
 
