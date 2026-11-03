@@ -16,7 +16,7 @@
   <a href="README.fr.md"><img src="../images/flags/flag-fr.svg" alt="" width="18" height="12" /> Français</a>
 </p>
 
-https://github.com/user-attachments/assets/8c41af54-9f3b-44e0-af5b-05ec92f7762c
+<p align="center"><a href="../images/trailer.mp4"><img src="../images/trailer.jpg" alt="Trailer (1 min 30)" width="760" /></a></p>
 
 # Fun Tracks — neu kompiliert
 
