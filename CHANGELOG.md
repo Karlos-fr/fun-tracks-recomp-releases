@@ -2,6 +2,26 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased]
+
+### Added
+
+- Graphics options: MENU SIZE (NORMAL, LARGE or LARGER). Menus can be 1.25 or 1.5 times bigger, so
+  they are easier to read on large screens. In 3D, even the longest pages still fit on screen, in
+  widescreen or 4:3.
+- Graphics options: SUSPENSION (3D renderer). As in the DOS version, the car bodies lean out of
+  curves, dip under braking and lift when accelerating, while the wheels stay on the road. It
+  changes only the picture, not the race.
+
+### Fixed
+
+- Moosejaw Falls: the rain on the dirt section, up to the bridge, shows again in the 2D renderer of
+  the 64-bit builds (Windows, Android, Linux). Its drops were drawn by a 1997 assembly routine that
+  had not been rewritten in C yet. All the remaining drawing routines of the 2D renderer are now in
+  C, checked pixel for pixel against the original on every track.
+- 3D renderer: the game's own rain drops now show with the ORIGINAL weather, drawn like the 2D
+  renderer. An added weather (rain, storm, snow) replaces them.
+
 ## [0.8.0-alpha] — 2026-11-03
 
 Eighth alpha release: smooth frame rate beyond 36 images per second in 3D, a modern controller with
