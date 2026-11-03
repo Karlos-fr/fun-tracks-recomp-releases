@@ -89,15 +89,29 @@ Full list, version by version:
 
 ## You need the original game
 
-**No file from the original game is included here.** You must own a copy of the original PC
-game (Fun Tracks, 1997) and use the files of its installation folder (the folder that contains
-`fun_win.btz`, `LEVELS`, `CARS`...).
+**No file from the original game is included here.**
+
+You must own a copy of the original PC game. Supported editions and installations:
+
+| Edition | Languages | Supported sources | Checked |
+|---|---|---|---|
+| **Fun Tracks** (CD) | French | installed folder, CD image | yes |
+| **Ignition** (CD Europe, Europe re-release, USA re-release) | English, Spanish, Italian, Swedish | installed folder, CD image | yes |
+| **Bleifuss Fun** (CD) | German | installed folder, CD image | yes |
+| **Ignition** on **GOG** | English, Spanish, Italian, Swedish | the game folder installed by GOG (DOS version, CD in `game.gog`) | yes |
+| **Ignition** on **Steam** | English, Spanish, Italian, Swedish | the game folder installed by Steam (same as GOG) | not yet on a real installation |
+| Any edition, DOS version only | — | installed DOS folder, with or without the CD image | yes (GOG files) |
+
+Put the recomp in a folder that contains one of: an installed copy of the game (folders `LEVELS`,
+`CARS`...), the game folder installed by GOG or Steam (the one with `game.gog`), or an image of
+the game CD (a `.cue` file with its `.bin`, or an `.iso`).
 
 To find the full game, start from its page on
 [Abandonware France](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1172&fic=liens).
 
-Optional: the CD music can be played from OGG files named `Music/track02.ogg`,
-`Music/track03.ogg`... in the game folder (ripped from your CD).
+Optional: the CD music is played from files named `Music/track02.ogg`, `Music/track03.ogg`...
+(OGG, or WAV 16-bit) in the game folder, as in the GOG and Steam folders, or from the audio tracks
+of the CD image (`.cue` with its `.bin`).
 
 ## Install — Windows 64-bit
 

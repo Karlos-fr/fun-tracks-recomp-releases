@@ -96,15 +96,29 @@ Vollständige Liste, Version für Version:
 
 ## Das Originalspiel wird benötigt
 
-**Hier ist keine Datei des Originalspiels enthalten.** Du brauchst eine Kopie des
-ursprünglichen PC-Spiels (Fun Tracks, 1997) und die Dateien seines Installationsordners (der
-Ordner mit `fun_win.btz`, `LEVELS`, `CARS`...).
+**Hier ist keine Datei des Originalspiels enthalten.**
+
+Du brauchst eine Kopie des ursprünglichen PC-Spiels. Unterstützte Ausgaben und Installationen:
+
+| Ausgabe | Sprachen | Unterstützte Quellen | Geprüft |
+|---|---|---|---|
+| **Fun Tracks** (CD) | Französisch | installierter Ordner, CD-Abbild | ja |
+| **Ignition** (CD Europa, Neuauflage Europa, Neuauflage USA) | Englisch, Spanisch, Italienisch, Schwedisch | installierter Ordner, CD-Abbild | ja |
+| **Bleifuss Fun** (CD) | Deutsch | installierter Ordner, CD-Abbild | ja |
+| **Ignition** bei **GOG** | Englisch, Spanisch, Italienisch, Schwedisch | der von GOG installierte Spielordner (DOS-Version, CD in `game.gog`) | ja |
+| **Ignition** bei **Steam** | Englisch, Spanisch, Italienisch, Schwedisch | der von Steam installierte Spielordner (wie GOG) | noch nicht mit einer echten Installation |
+| Jede Ausgabe, nur DOS-Version | — | installierter DOS-Ordner, mit oder ohne CD-Abbild | ja (GOG-Dateien) |
+
+Lege die Recomp in einen Ordner, der eines davon enthält: das installierte Spiel (Ordner `LEVELS`,
+`CARS`...), den von GOG oder Steam installierten Spielordner (den mit `game.gog`) oder ein Abbild
+der Spiel-CD (eine `.cue`-Datei mit ihrer `.bin`, oder eine `.iso`).
 
 Um das vollständige Spiel zu finden, beginne mit seiner Seite bei
 [Abandonware France](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1172&fic=liens).
 
-Optional: Die CD-Musik kann aus OGG-Dateien namens `Music/track02.ogg`, `Music/track03.ogg`...
-im Spielordner abgespielt werden (von deiner CD gerippt).
+Optional: Die CD-Musik wird aus Dateien namens `Music/track02.ogg`, `Music/track03.ogg`... (OGG
+oder WAV 16 Bit) im Spielordner abgespielt, wie in den Ordnern von GOG und Steam, oder aus den
+Audiospuren des CD-Abbilds (`.cue` mit ihrer `.bin`).
 
 ## Installation — Windows 64-Bit
 

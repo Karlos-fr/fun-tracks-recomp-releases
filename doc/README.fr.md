@@ -97,15 +97,29 @@ Liste complète, version par version :
 
 ## Il faut le jeu original
 
-**Aucun fichier du jeu original n'est fourni ici.** Il faut posséder une copie du jeu PC
-d'origine (Fun Tracks, 1997) et utiliser les fichiers de son dossier d'installation (celui qui
-contient `fun_win.btz`, `LEVELS`, `CARS`...).
+**Aucun fichier du jeu original n'est fourni ici.**
+
+Il faut posséder une copie du jeu PC d'origine. Éditions et installations prises en charge :
+
+| Édition | Langues | Sources prises en charge | Vérifiée |
+|---|---|---|---|
+| **Fun Tracks** (CD) | français | dossier installé, image du CD | oui |
+| **Ignition** (CD Europe, réédition Europe, réédition USA) | anglais, espagnol, italien, suédois | dossier installé, image du CD | oui |
+| **Bleifuss Fun** (CD) | allemand | dossier installé, image du CD | oui |
+| **Ignition** chez **GOG** | anglais, espagnol, italien, suédois | le dossier du jeu installé par GOG (version DOS, CD dans `game.gog`) | oui |
+| **Ignition** chez **Steam** | anglais, espagnol, italien, suédois | le dossier du jeu installé par Steam (comme GOG) | pas encore sur une vraie installation |
+| Toute édition, version DOS seule | — | dossier DOS installé, avec ou sans l'image du CD | oui (fichiers GOG) |
+
+Placez la recomp dans un dossier qui contient au choix : le jeu installé (dossiers `LEVELS`,
+`CARS`...), le dossier du jeu installé par GOG ou Steam (celui qui contient `game.gog`), ou une
+image du CD du jeu (un fichier `.cue` et son `.bin`, ou un `.iso`).
 
 Pour trouver le jeu complet, partez de sa page sur
 [Abandonware France](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1172&fic=liens).
 
-Facultatif : la musique du CD peut être jouée depuis des fichiers OGG nommés
-`Music/track02.ogg`, `Music/track03.ogg`... dans le dossier du jeu (extraits de votre CD).
+Facultatif : la musique du CD est jouée depuis des fichiers nommés `Music/track02.ogg`,
+`Music/track03.ogg`... (OGG, ou WAV 16 bits) dans le dossier du jeu, comme dans les dossiers GOG
+et Steam, ou depuis les pistes audio de l'image du CD (`.cue` et son `.bin`).
 
 ## Installation — Windows 64 bits
 

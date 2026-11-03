@@ -14,9 +14,23 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   changes only the picture, not the race.
 - Menus: holding an arrow key (or the D-pad) keeps moving through the menu, after a short delay,
   about nine times a second.
+- Every edition of the game is supported: **Fun Tracks** (French), **Ignition** (English, Spanish,
+  Italian, Swedish; CD, GOG and Steam) and **Bleifuss Fun** (German). The game can be read from an
+  installed copy, from the folder installed by GOG or Steam (the DOS version, with the CD kept in
+  `game.gog`), or directly from an image of the game CD (`.cue` with its `.bin`, or `.iso`). Ignition
+  keeps its records in `ign_win.btz`, as the original did. Checked on four CDs and on GOG: races
+  look the same, pixel for pixel, in every edition. Steam is not tested on a real installation yet.
+- Music can also be played from WAV files (`Music/trackNN.wav`) or from the audio tracks of a CD
+  image.
+- READMEs: a table of the supported editions and installations (CD, CD image, GOG, Steam, DOS-only),
+  with what has been checked.
 
 ### Fixed
 
+- GOG, Steam and other DOS installations: the game no longer stops on a missing `Default.psq` (issue
+  10); it reads the Windows files from the CD image, or the DOS ones.
+- 3D renderer: the 3DFX EFFECTS and SCENERY lines are greyed out when the 3dfx patch files (`.TFX`)
+  are missing, instead of doing nothing.
 - Moosejaw Falls: the rain on the dirt section, up to the bridge, shows again in the 2D renderer of
   the 64-bit builds (Windows, Android, Linux). Its drops were drawn by a 1997 assembly routine that
   had not been rewritten in C yet. All the remaining drawing routines of the 2D renderer are now in

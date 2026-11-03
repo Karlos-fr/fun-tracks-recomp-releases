@@ -93,15 +93,29 @@ Fullständig lista, version för version:
 
 ## Originalspelet behövs
 
-**Ingen fil från originalspelet ingår här.** Du måste äga en kopia av det ursprungliga PC-spelet
-(Fun Tracks, 1997) och använda filerna i dess installationsmapp (mappen som innehåller
-`fun_win.btz`, `LEVELS`, `CARS`...).
+**Ingen fil från originalspelet ingår här.**
+
+Du måste äga en kopia av det ursprungliga PC-spelet. Utgåvor och installationer som stöds:
+
+| Utgåva | Språk | Källor som stöds | Kontrollerad |
+|---|---|---|---|
+| **Fun Tracks** (cd) | franska | installerad mapp, cd-avbild | ja |
+| **Ignition** (cd Europa, nyutgåva Europa, nyutgåva USA) | engelska, spanska, italienska, svenska | installerad mapp, cd-avbild | ja |
+| **Bleifuss Fun** (cd) | tyska | installerad mapp, cd-avbild | ja |
+| **Ignition** på **GOG** | engelska, spanska, italienska, svenska | spelmappen som GOG installerat (DOS-versionen, cd:n i `game.gog`) | ja |
+| **Ignition** på **Steam** | engelska, spanska, italienska, svenska | spelmappen som Steam installerat (som GOG) | inte ännu på en riktig installation |
+| Alla utgåvor, endast DOS-versionen | — | installerad DOS-mapp, med eller utan cd-avbilden | ja (GOG-filer) |
+
+Lägg recompen i en mapp som innehåller något av: det installerade spelet (mapparna `LEVELS`,
+`CARS`...), spelmappen som GOG eller Steam installerat (den med `game.gog`), eller en avbild av
+spelets cd (en `.cue`-fil med sin `.bin`, eller en `.iso`).
 
 För att hitta hela spelet, börja på dess sida hos
 [Abandonware France](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1172&fic=liens).
 
-Valfritt: CD-musiken kan spelas upp från OGG-filer med namnen `Music/track02.ogg`,
-`Music/track03.ogg`... i spelmappen (rippade från din CD).
+Valfritt: cd-musiken spelas upp från filer med namnen `Music/track02.ogg`, `Music/track03.ogg`...
+(OGG, eller WAV 16 bitar) i spelmappen, som i mapparna från GOG och Steam, eller från ljudspåren i
+cd-avbilden (`.cue` med sin `.bin`).
 
 ## Installation — Windows 64-bitars
 

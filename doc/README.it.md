@@ -96,15 +96,29 @@ Elenco completo, versione per versione:
 
 ## Serve il gioco originale
 
-**Qui non è incluso alcun file del gioco originale.** Bisogna possedere una copia del gioco PC
-originale (Fun Tracks, 1997) e usare i file della sua cartella di installazione (quella che
-contiene `fun_win.btz`, `LEVELS`, `CARS`...).
+**Qui non è incluso alcun file del gioco originale.**
+
+Bisogna possedere una copia del gioco PC originale. Edizioni e installazioni supportate:
+
+| Edizione | Lingue | Origini supportate | Verificata |
+|---|---|---|---|
+| **Fun Tracks** (CD) | francese | cartella installata, immagine del CD | sì |
+| **Ignition** (CD Europa, ristampa Europa, ristampa USA) | inglese, spagnolo, italiano, svedese | cartella installata, immagine del CD | sì |
+| **Bleifuss Fun** (CD) | tedesco | cartella installata, immagine del CD | sì |
+| **Ignition** su **GOG** | inglese, spagnolo, italiano, svedese | la cartella del gioco installata da GOG (versione DOS, CD in `game.gog`) | sì |
+| **Ignition** su **Steam** | inglese, spagnolo, italiano, svedese | la cartella del gioco installata da Steam (come GOG) | non ancora su una vera installazione |
+| Qualsiasi edizione, solo versione DOS | — | cartella DOS installata, con o senza immagine del CD | sì (file GOG) |
+
+Mettete la recomp in una cartella che contenga a scelta: il gioco installato (cartelle `LEVELS`,
+`CARS`...), la cartella del gioco installata da GOG o Steam (quella con `game.gog`), o un'immagine
+del CD del gioco (un file `.cue` con il suo `.bin`, o un `.iso`).
 
 Per trovare il gioco completo, partite dalla sua pagina su
 [Abandonware France](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1172&fic=liens).
 
-Facoltativo: la musica del CD può essere riprodotta da file OGG chiamati `Music/track02.ogg`,
-`Music/track03.ogg`... nella cartella del gioco (estratti dal vostro CD).
+Facoltativo: la musica del CD viene riprodotta da file chiamati `Music/track02.ogg`,
+`Music/track03.ogg`... (OGG, o WAV a 16 bit) nella cartella del gioco, come nelle cartelle di GOG
+e Steam, o dalle tracce audio dell'immagine del CD (`.cue` con il suo `.bin`).
 
 ## Installazione — Windows 64 bit
 
