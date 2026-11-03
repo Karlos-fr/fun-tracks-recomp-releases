@@ -29,6 +29,10 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   then put in its place. Saving a player now writes the file once instead of 23 times.
 - 32-bit builds: a corrupt track surface file (`.SRF`) announcing huge dimensions is now refused, as in
   64-bit builds.
+- 3D renderer with HD textures: fewer stutters when going from the menus to a race. The game frees and
+  reloads the same textures between screens; the decoded HD images are now kept (128 MB at most)
+  instead of being read and decoded again, about 6 ms each. Over a menus-then-race run, 26 decodes
+  instead of 58.
 
 ## [0.8.0-alpha] — 2026-11-03
 
