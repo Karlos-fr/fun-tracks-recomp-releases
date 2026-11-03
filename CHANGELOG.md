@@ -23,6 +23,12 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   C, checked pixel for pixel against the original on every track.
 - 3D renderer: the game's own rain drops now show with the ORIGINAL weather, drawn like the 2D
   renderer. An added weather (rain, storm, snow) replaces them.
+- Player names keep their capital letters in `fun_tracks_recomp.ini` (they were read back in lower
+  case).
+- The settings file can no longer be lost if writing it fails: it is written in full beside the old one,
+  then put in its place. Saving a player now writes the file once instead of 23 times.
+- 32-bit builds: a corrupt track surface file (`.SRF`) announcing huge dimensions is now refused, as in
+  64-bit builds.
 
 ## [0.8.0-alpha] — 2026-11-03
 
