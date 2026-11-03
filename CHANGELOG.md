@@ -10,6 +10,12 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   [testing/linux-portmaster](testing/linux-portmaster), not a release yet. The 3D renderer works
   on Linux too (Wayland or X11, with Vulkan); without Vulkan the game goes back to the 2D renderer
   by itself.
+- Graphics options: FRAME RATE (36, 60, 120, 144 or MAX, MAX by default). With the 3D renderer,
+  races and the live race behind the menus are no longer limited to the game's 36 steps per
+  second: in-between images show the camera and the cars between two steps, up to the chosen rate
+  or the screen's. The race itself is unchanged and adds no input delay; 36 gives the 1997 look,
+  one image per step. Rain, ripples, flicker and other 3D effects follow game time, so they keep
+  the same speed at any frame rate.
 
 ### Changed
 
