@@ -65,7 +65,7 @@ Par rapport au jeu d'origine de 1997 :
   les vues se partagent et se rejoignent selon la course, chacun choisit sa voiture et règle ses
   commandes.
 - **Améliorations graphiques** en 3D, toutes au choix : textures lissées, mipmaps, filtrage
-  anisotrope, netteté, anticrénelage, packs de textures HD, pluie, orage et neige (aussi sur
+  anisotrope, netteté, anticrénelage, packs de textures, pluie, orage et neige (aussi sur
   l'objectif de la caméra), éclairage et ombres dynamiques, et une vraie nuit avec phares.
 - **Jeu en réseau** de 2 à 6 joueurs, PC ou console Android, un par poste : sur le réseau local
   (les parties se trouvent toutes seules) ou par Internet (l'hôte ouvre le port UDP 17970).
@@ -74,8 +74,10 @@ Par rapport au jeu d'origine de 1997 :
 - **Ciel, flaques et éclaboussures** en 3D : un vrai ciel (nuages, coucher de soleil, étoiles),
   des flaques sous la pluie ajoutée qui le reflètent et se rident au passage des voitures, et
   des gerbes d'eau sous les roues.
-- **Textures HD sans téléchargement** : fabriquées au premier lancement à partir de vos fichiers
-  du jeu.
+- **Packs de textures** (moteur 3D) : un pack se pose dans le dossier `packs` du jeu et se choisit
+  dans les options graphiques (ligne TEXTURES). Il remplace les textures des voitures, du décor et des
+  effets et l'interface de la course, à n'importe quelle résolution ; ce qu'il ne contient pas reste
+  d'origine. Aucun pack n'est fourni.
 - **Roues rondes** (option) : les roues des voitures deviennent rondes et tournent en roulant.
 - **Lumière, lune et reflets** en 3D : une lumière qui suit la hauteur du soleil, des ombres
   sur deux niveaux, une lune et ses phases, des carrosseries et des vitres qui reflètent le ciel,

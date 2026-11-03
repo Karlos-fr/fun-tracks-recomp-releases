@@ -64,7 +64,7 @@ Jämfört med originalspelet från 1997:
   handkontroller): vyerna delas och slås ihop efter loppet, var och en väljer sin bil och ställer
   in sina kontroller.
 - **Grafikförbättringar** i 3D, alla valfria: utjämnade texturer, mipmaps, anisotropisk
-  filtrering, skärpa, kantutjämning, HD-texturpaket, regn, åska och snö (även på
+  filtrering, skärpa, kantutjämning, texturpaket, regn, åska och snö (även på
   kameralinsen), dynamiskt ljus och skuggor samt en riktig natt med strålkastare.
 - **Nätverksspel** för 2 till 6 spelare, PC eller Android-konsol, en per enhet: i det lokala
   nätverket (spelen hittas automatiskt) eller över Internet (värden öppnar UDP-port 17970).
@@ -72,7 +72,10 @@ Jämfört med originalspelet från 1997:
   16-bitarsfärger från 3dfx-utgåvan från 1997, en i taget eller alla på en gång.
 - **Himmel, pölar och stänk** i 3D: en riktig himmel (moln, solnedgång, stjärnor), pölar i
   tillagt regn som speglar den och krusas när bilarna kör igenom, och vattenstänk under hjulen.
-- **HD-texturer utan nedladdning**: skapas vid första starten från dina egna spelfiler.
+- **Texturpaket** (3D-renderaren): ett paket läggs i spelets mapp `packs` och väljs i
+  grafikinställningarna (raden TEXTURER). Det ersätter bilarnas, banans och effekternas texturer samt
+  racegränssnittet, i vilken upplösning som helst; det som saknas förblir original. Inga paket
+  medföljer.
 - **Runda hjul** (tillval): bilarnas hjul blir runda och rullar med bilen.
 - **Ljus, måne och reflexer** i 3D: ljus som följer solens höjd, skuggor i två nivåer, en måne
   med sina faser, lack och rutor som speglar himlen, hav och floder som beter sig som vatten, och

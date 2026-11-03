@@ -61,7 +61,7 @@ Compared with the original 1997 game:
 - **Same-screen multiplayer** in 3D for up to six players (keyboard halves and gamepads): views
   split and merge with the race, each player picks a car and sets up their own controls.
 - **Graphics enhancements** in 3D, all optional: smooth textures, mipmaps, anisotropic
-  filtering, sharpening, anti-aliasing, HD texture packs, rain, storm and snow (also on the
+  filtering, sharpening, anti-aliasing, texture packs, rain, storm and snow (also on the
   camera lens), dynamic lighting and shadows, and a real night with headlights.
 - **Network game** for 2 to 6 players, PC or Android console, one per machine: on the local
   network (games are found automatically) or over the Internet (the host opens UDP port 17970).
@@ -69,7 +69,9 @@ Compared with the original 1997 game:
   colours of the 1997 3dfx edition, one by one or all at once.
 - **Sky, puddles and splashes** in 3D: a real sky (clouds, sunset, stars), puddles under added
   rain that reflect it and ripple when cars drive through, and water splashes from the wheels.
-- **HD textures without download**: made on first launch from your own game files.
+- **Texture packs** (3D renderer): put a pack in the `packs` folder of the game and choose it in the
+  graphics options (TEXTURES line). A pack replaces the textures of the cars, scenery and effects and
+  the race HUD, at any resolution; whatever it lacks stays original. No pack is included.
 - **Round wheels** (option): the cars' wheels become round and roll with the car.
 - **Light, moon and reflections** in 3D: light that follows the height of the sun, two-level
   shadows, a moon with its phases, car paint and windows that reflect the sky, seas and rivers

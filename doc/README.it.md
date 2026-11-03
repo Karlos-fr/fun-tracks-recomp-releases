@@ -65,7 +65,7 @@ Rispetto al gioco originale del 1997:
   gamepad): le visuali si dividono e si riuniscono secondo la gara, ognuno sceglie la sua auto e
   configura i suoi comandi.
 - **Miglioramenti grafici** in 3D, tutti facoltativi: texture levigate, mipmap, filtro
-  anisotropo, nitidezza, antialiasing, pacchetti di texture HD, pioggia, temporale e neve
+  anisotropo, nitidezza, antialiasing, pacchetti di texture, pioggia, temporale e neve
   (anche sull'obiettivo), luci e ombre dinamiche e una vera notte con i fari.
 - **Gioco in rete** da 2 a 6 giocatori, PC o console Android, uno per dispositivo: in rete locale
   (le partite si trovano da sole) o via Internet (l'host apre la porta UDP 17970).
@@ -74,7 +74,10 @@ Rispetto al gioco originale del 1997:
 - **Cielo, pozzanghere e schizzi** in 3D: un vero cielo (nuvole, tramonto, stelle), pozzanghere
   sotto la pioggia aggiunta che lo riflettono e si increspano al passaggio delle auto, e
   schizzi d'acqua sotto le ruote.
-- **Texture HD senza download**: create al primo avvio dai vostri file del gioco.
+- **Pacchetti di texture** (motore 3D): un pacchetto va nella cartella `packs` del gioco e si
+  sceglie nelle opzioni grafiche (riga TEXTURE). Sostituisce le texture delle auto, del paesaggio e
+  degli effetti e l'interfaccia di gara, a qualsiasi risoluzione; ciò che manca resta originale.
+  Nessun pacchetto è incluso.
 - **Ruote rotonde** (opzione): le ruote delle auto diventano rotonde e girano mentre l'auto
   corre.
 - **Luce, luna e riflessi** in 3D: una luce che segue l'altezza del sole, ombre su due livelli,

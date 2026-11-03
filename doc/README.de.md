@@ -65,7 +65,7 @@ Im Vergleich zum Originalspiel von 1997:
   Gamepads): die Ansichten teilen und vereinen sich je nach Rennen, jeder wählt sein Auto und
   stellt seine Steuerung ein.
 - **Grafikverbesserungen** in 3D, alle optional: geglättete Texturen, Mipmaps, anisotrope
-  Filterung, Schärfe, Kantenglättung, HD-Texturpakete, Regen, Gewitter und Schnee (auch auf
+  Filterung, Schärfe, Kantenglättung, Texturpakete, Regen, Gewitter und Schnee (auch auf
   der Kameralinse), dynamisches Licht und Schatten sowie eine echte Nacht mit Scheinwerfern.
 - **Netzwerkspiel** für 2 bis 6 Spieler, PC oder Android-Konsole, einer pro Gerät: im lokalen
   Netz (Spiele werden automatisch gefunden) oder über das Internet (der Host öffnet UDP-Port 17970).
@@ -74,7 +74,10 @@ Im Vergleich zum Originalspiel von 1997:
 - **Himmel, Pfützen und Spritzwasser** in 3D: ein echter Himmel (Wolken, Sonnenuntergang,
   Sterne), Pfützen bei zusätzlichem Regen, die ihn spiegeln und sich kräuseln, wenn Autos
   hindurchfahren, und Wasserfontänen unter den Rädern.
-- **HD-Texturen ohne Download**: beim ersten Start aus deinen eigenen Spieldateien erzeugt.
+- **Texturpakete** (3D-Renderer): ein Paket kommt in den Ordner `packs` des Spiels und wird in den
+  Grafikoptionen gewählt (Zeile TEXTUREN). Es ersetzt die Texturen der Autos, der Strecke und der
+  Effekte sowie die Rennanzeige, in jeder Auflösung; was fehlt, bleibt original. Es sind keine Pakete
+  enthalten.
 - **Runde Räder** (Option): die Räder der Autos werden rund und drehen sich beim Fahren.
 - **Licht, Mond und Spiegelungen** in 3D: Licht, das dem Sonnenstand folgt, Schatten in zwei
   Stufen, ein Mond mit seinen Phasen, Lack und Scheiben, die den Himmel spiegeln, Meere und

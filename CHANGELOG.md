@@ -28,6 +28,22 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   `testing/linux-portmaster` is updated with every edition supported; its launcher also accepts a CD
   image in `gamedata/`.
 
+### Changed
+
+- Texture packs (3D renderer), reworked. A pack is a folder in `packs/` next to the game files, chosen
+  in the graphics options: the TEXTURES line now lists ORIGINAL and the packs found. A pack can
+  replace any texture page of the cars, scenery and effects, and the race HUD (counters, digits,
+  fonts), with images of any size as long as they are square like the page they replace; pages it
+  lacks stay original. `tools/make_pack.py` builds a pack from whole pages or from single elements
+  (a glyph, a counter), and `FT_PACK_DUMP=<folder>` makes the game write the HUD pages it shows, as a
+  starting point. The menus are not covered yet.
+
+### Removed
+
+- The HD texture packs the game made by itself on first launch (`textures_hd`), the HD 2X / HD 4X
+  values of the TEXTURES line and `tools/upscale_textures.py`: a pack is now real artwork, chosen by
+  the player. The old `textures_hd` folder can be deleted.
+
 ### Fixed
 
 - GOG, Steam and other DOS installations: the game no longer stops on a missing `Default.psq` (issue
