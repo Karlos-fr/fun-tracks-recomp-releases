@@ -35,8 +35,11 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   the paths of the game files, one image per image in the file: `CARS/Cars.tex/00.png` replaces the
   first page of `CARS/Cars.tex`. Images can have any size as long as they keep the proportions of the
   original; whatever a pack lacks stays original. It covers the textures of the cars, scenery and
-  effects for now; the HUD and the menus come next. `tools/dump_textures.py` writes the original
-  pages under these names and `tools/make_pack.py` builds a pack from page images.
+  effects, and the race HUD: a block of a picture sheet (`H_pan1.pic/0_72_157_130.png`, the rev
+  counter) or a letter of a font (`fonts/POS_H.LFT/0036.png`); see-through glass on the counters stays
+  see-through. The menus come next. `tools/dump_textures.py` and `tools/dump_interface.py` write the
+  original images under these names, and `tools/make_pack.py` builds a pack from page images or from
+  single interface elements.
 
 ### Removed
 
