@@ -28,6 +28,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   in PLAYERS. The 1997 joystick, pedals and joypad modes, with their fixed buttons, are gone with
   their calibration pages; a settings file using them switches to CONTROLLER. With a controller,
   steering, accelerator and brake are progressive (stick and triggers).
+- Code cleanup, with no change in the game: code that nothing used is removed (measured by the
+  linker on the 64-bit and 32-bit builds), sizes and counts are written in decimal, and no name
+  in the C code carries an address of the original program any more.
 
 ### Fixed
 
