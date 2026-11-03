@@ -145,6 +145,25 @@ back, X turbo, LB / RB gears, Y rear view, d-pad up headlights, Start pause. But
 settings page.
 In races, the right trigger accelerates and the left trigger brakes, progressively.
 
+## Install — Linux ARM64 (PortMaster, test build)
+
+Requirements: a 64-bit ARM Linux handheld with PortMaster (Knulli, muOS, ROCKNIX, ArkOS/dArkOS,
+AmberELEC…). **Test build**: not yet tested on real devices, please report in [issue
+9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
+
+1. Download `FunTracks-…-linux-arm64-portmaster.zip` from the [Releases](../../releases) page
+   (until the next release: [`funtracks.zip`](testing/linux-portmaster/funtracks.zip)) and extract
+   it into the ports folder of your system (usually `roms/ports/`): you get `Fun Tracks.sh` and
+   `funtracks/`.
+2. Copy **the content** of your game folder (any supported edition, or the CD image) into
+   `ports/funtracks/gamedata/`.
+3. Refresh the game list (or restart the system), then start **Fun Tracks** from the Ports
+   section.
+
+The port starts with the original 2D renderer; the 3D renderer needs Vulkan and Wayland on the
+device. Gamepad as on Android; Select + Start quits. Messages are written to
+`ports/funtracks/log.txt`. More details: [testing/linux-portmaster](testing/linux-portmaster).
+
 ## Known limitations (alpha)
 
 - Network game tested between a PC and an Android console on a local network; not yet between

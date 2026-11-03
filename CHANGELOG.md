@@ -24,6 +24,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   image.
 - READMEs: a table of the supported editions and installations (CD, CD image, GOG, Steam, DOS-only),
   with what has been checked.
+- READMEs: an install chapter for the Linux ARM64 test build (PortMaster handhelds). The test build in
+  `testing/linux-portmaster` is updated with every edition supported; its launcher also accepts a CD
+  image in `gamedata/`.
 
 ### Fixed
 

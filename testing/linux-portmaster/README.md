@@ -5,8 +5,9 @@ PortMaster: Knulli, muOS, ROCKNIX, ArkOS/dArkOS, AmberELEC… It is **not a rele
 will be published once this build has been tested on real devices
 ([issue 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9)).
 
-**No file from the original game is included.** You need your own copy of the original PC game
-(Fun Tracks, 1997).
+**No file from the original game is included.** You need your own copy of the original PC game, in
+any supported edition: Fun Tracks, Ignition (CD, GOG or Steam) or Bleifuss Fun (see the
+[main README](../../README.md#you-need-the-original-game)).
 
 ## Files
 
@@ -18,9 +19,10 @@ will be published once this build has been tested on real devices
 1. Download `funtracks.zip` and extract it **into the ports folder** of your system (the folder
    where PortMaster installs its ports, usually `roms/ports/`), so that you get
    `ports/Fun Tracks.sh` and `ports/funtracks/` side by side with your other ports.
-2. Copy **the content** of your Fun Tracks install folder (the folder with `FUN_WIN.EXE`, `LEVELS`,
-   `CARS`…) into `ports/funtracks/gamedata/`. Optional CD music: `Music/track02.ogg`,
-   `Music/track03.ogg`… in the same folder.
+2. Copy **the content** of your game folder (an installed copy with `LEVELS`, `CARS`…, the folder
+   installed by GOG or Steam, or an image of the game CD) into `ports/funtracks/gamedata/`.
+   Optional CD music: `Music/track02.ogg`, `Music/track03.ogg`… (OGG or WAV) in the same folder,
+   or the audio tracks of the CD image.
 3. Refresh the game list of your system (or restart it), then start **Fun Tracks** from the Ports
    section.
 

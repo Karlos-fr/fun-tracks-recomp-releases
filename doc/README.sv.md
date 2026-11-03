@@ -152,6 +152,25 @@ bekräfta, B för att bromsa eller gå tillbaka, X turbo, LB / RB växlar, Y bac
 Knapparna kan ändras på spelets sida för kontroller.
 I loppet gasar höger avtryckare och vänster bromsar, stegslöst.
 
+## Installation — Linux ARM64 (PortMaster, testversion)
+
+Krav: en handhållen Linux-konsol med 64-bitars ARM och PortMaster (Knulli, muOS, ROCKNIX,
+ArkOS/dArkOS, AmberELEC…). **Testversion**: ännu inte provad på riktiga enheter, rapportera gärna
+i [issue 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
+
+1. Ladda ner `FunTracks-…-linux-arm64-portmaster.zip` från sidan
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) (fram till nästa
+   release: [`funtracks.zip`](../testing/linux-portmaster/funtracks.zip)) och packa upp den i
+   systemets ports-mapp (oftast `roms/ports/`): du får `Fun Tracks.sh` och `funtracks/`.
+2. Kopiera **innehållet** i din spelmapp (vilken utgåva som helst som stöds, eller cd-avbilden)
+   till `ports/funtracks/gamedata/`.
+3. Uppdatera spellistan (eller starta om systemet) och starta **Fun Tracks** under Ports.
+
+Porten startar med den ursprungliga 2D-renderaren; 3D-renderaren kräver Vulkan och Wayland på
+enheten. Handkontroll som på Android; Select + Start avslutar. Meddelanden skrivs till
+`ports/funtracks/log.txt`. Mer information:
+[testing/linux-portmaster](../testing/linux-portmaster).
+
 ## Kända begränsningar (alfa)
 
 - Nätverksspel testat mellan en PC och en Android-konsol i ett lokalt nätverk; ännu inte mellan

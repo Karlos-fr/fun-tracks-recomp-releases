@@ -155,6 +155,27 @@ confermare, B per frenare o tornare indietro, X turbo, LB / RB marce, Y vista po
 su fari, Start pausa. I tasti si cambiano nella pagina dei comandi del gioco.
 In gara il grilletto destro accelera e quello sinistro frena, in modo progressivo.
 
+## Installazione — Linux ARM64 (PortMaster, versione di prova)
+
+Requisiti: una console portatile Linux ARM a 64 bit con PortMaster (Knulli, muOS, ROCKNIX,
+ArkOS/dArkOS, AmberELEC…). **Versione di prova**: non ancora provata su dispositivi reali,
+segnalate nell'[issue 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
+
+1. Scaricate `FunTracks-…-linux-arm64-portmaster.zip` dalla pagina
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) (fino alla
+   prossima release: [`funtracks.zip`](../testing/linux-portmaster/funtracks.zip)) ed estraetelo
+   nella cartella dei port del sistema (di solito `roms/ports/`): otterrete `Fun Tracks.sh` e
+   `funtracks/`.
+2. Copiate **il contenuto** della cartella del gioco (qualsiasi edizione supportata, o l'immagine
+   del CD) in `ports/funtracks/gamedata/`.
+3. Aggiornate l'elenco dei giochi (o riavviate il sistema), poi avviate **Fun Tracks** dalla
+   sezione Ports.
+
+Il port parte con il renderer 2D originale; il renderer 3D richiede Vulkan e Wayland sul
+dispositivo. Gamepad come su Android; Select + Start esce. I messaggi sono scritti in
+`ports/funtracks/log.txt`. Altri dettagli:
+[testing/linux-portmaster](../testing/linux-portmaster).
+
 ## Limiti noti (alpha)
 
 - Gioco in rete provato tra un PC e una console Android in rete locale; non ancora tra due PC né
