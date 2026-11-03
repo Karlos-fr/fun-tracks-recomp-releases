@@ -36,6 +36,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   triggers did nothing.
 - Steam and GOG releases (Ignition, the English edition of the game): the game stopped on a white
   screen after the first two intro videos, because Ignition names its intro videos differently.
+- A game folder missing some original files (for example `Baltazar\data\Default.psq`) made the
+  game crash right after the intro videos. The game now checks these files at startup and lists
+  the missing ones, with the game folder, in a message in the game's language.
 
 ## [0.7.0-alpha] — 2026-11-02
 
