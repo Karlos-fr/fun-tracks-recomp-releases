@@ -39,7 +39,13 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   counter) or a letter of a font (`fonts/POS_H.LFT/0036.png`); see-through glass on the counters stays
   see-through. In the menus (with the background race), the capsules become whole HD pills from
   `MenuBkg.dat/capsule.png` and `capsule_bleu.png`, drawn at screen resolution with the texts over
-  them; settings pages and menu fonts come next. `tools/dump_textures.py` and `tools/dump_interface.py` write the
+  them, the settings pages included; the menu font and the car cards have HD images too (the letters
+  of the HD font are see-through around them). A page can also be given one texture at a time
+  (`LEVELS/Canada/CANADA.TEX/05/0_128_64_64.png`, a 64 × 64 texture of page 5), the cells of the 3dfx
+  scenery under the place they come from in the `.TFX` file; a texture the game rewrites (animated
+  water) stays original. Pack pages are compressed by the graphics card (BC3, 4096 × 4096 pages at a
+  quarter of the memory) and kept in `packs/<name>/.cache`, so later launches read them back instead of
+  decoding the images. `tools/dump_textures.py` and `tools/dump_interface.py` write the
   original images under these names, and `tools/make_pack.py` builds a pack from page images or from
   single interface elements.
 

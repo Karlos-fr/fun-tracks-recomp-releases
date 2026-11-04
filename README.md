@@ -70,8 +70,8 @@ Compared with the original 1997 game:
 - **Sky, puddles and splashes** in 3D: a real sky (clouds, sunset, stars), puddles under added
   rain that reflect it and ripple when cars drive through, and water splashes from the wheels.
 - **Texture packs** (3D renderer): put a pack in the `packs` folder of the game and choose it in the
-  graphics options (TEXTURES line). A pack replaces the textures of the cars, scenery and effects and
-  the race HUD, at any resolution; whatever it lacks stays original. No pack is included.
+  graphics options (TEXTURES line). A pack replaces the textures of the cars, scenery and effects, the
+  race HUD and the menus, at any resolution; whatever it lacks stays original. No pack is included.
 - **Round wheels** (option): the cars' wheels become round and roll with the car.
 - **Light, moon and reflections** in 3D: light that follows the height of the sun, two-level
   shadows, a moon with its phases, car paint and windows that reflect the sky, seas and rivers

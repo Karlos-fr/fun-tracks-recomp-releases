@@ -76,7 +76,7 @@ Rispetto al gioco originale del 1997:
   schizzi d'acqua sotto le ruote.
 - **Pacchetti di texture** (motore 3D): un pacchetto va nella cartella `packs` del gioco e si
   sceglie nelle opzioni grafiche (riga TEXTURE). Sostituisce le texture delle auto, del paesaggio e
-  degli effetti e l'interfaccia di gara, a qualsiasi risoluzione; ciò che manca resta originale.
+  degli effetti, l'interfaccia di gara e i menu, a qualsiasi risoluzione; ciò che manca resta originale.
   Nessun pacchetto è incluso.
 - **Ruote rotonde** (opzione): le ruote delle auto diventano rotonde e girano mentre l'auto
   corre.

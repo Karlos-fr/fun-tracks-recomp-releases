@@ -76,7 +76,7 @@ Im Vergleich zum Originalspiel von 1997:
   hindurchfahren, und Wasserfontänen unter den Rädern.
 - **Texturpakete** (3D-Renderer): ein Paket kommt in den Ordner `packs` des Spiels und wird in den
   Grafikoptionen gewählt (Zeile TEXTUREN). Es ersetzt die Texturen der Autos, der Strecke und der
-  Effekte sowie die Rennanzeige, in jeder Auflösung; was fehlt, bleibt original. Es sind keine Pakete
+  Effekte sowie die Rennanzeige und die Menüs, in jeder Auflösung; was fehlt, bleibt original. Es sind keine Pakete
   enthalten.
 - **Runde Räder** (Option): die Räder der Autos werden rund und drehen sich beim Fahren.
 - **Licht, Mond und Spiegelungen** in 3D: Licht, das dem Sonnenstand folgt, Schatten in zwei

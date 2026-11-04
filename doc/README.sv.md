@@ -74,7 +74,7 @@ Jämfört med originalspelet från 1997:
   tillagt regn som speglar den och krusas när bilarna kör igenom, och vattenstänk under hjulen.
 - **Texturpaket** (3D-renderaren): ett paket läggs i spelets mapp `packs` och väljs i
   grafikinställningarna (raden TEXTURER). Det ersätter bilarnas, banans och effekternas texturer samt
-  racegränssnittet, i vilken upplösning som helst; det som saknas förblir original. Inga paket
+  racegränssnittet och menyerna, i vilken upplösning som helst; det som saknas förblir original. Inga paket
   medföljer.
 - **Runda hjul** (tillval): bilarnas hjul blir runda och rullar med bilen.
 - **Ljus, måne och reflexer** i 3D: ljus som följer solens höjd, skuggor i två nivåer, en måne
