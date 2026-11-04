@@ -63,6 +63,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - 3D renderer: the lightning of the Moosejaw Falls storm shows again. Its bolt was never handed to
   the 3D renderer, which skipped it.
 - 3D renderer: a crushed car stays visible, flattened, instead of vanishing.
+- HD menu letters sit a little lower in their capsules instead of touching the top, and the Q stands on
+  the same line as the other letters.
 - 3D renderer with HD textures: pack images now follow the palette effects of the game, the flash of
   a lightning bolt and the darker colours of the rain zone, as the original textures do.
 - 3D renderer with HD textures: the start banner of Moosejaw Falls (a face with see-through parts)
