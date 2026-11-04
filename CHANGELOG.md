@@ -22,6 +22,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 - 3D renderer: trees, the start banner, fences and the other cut-out objects now cast shadows, shaped
   like their picture.
+- Frames per second: with the FRAMES PER SECOND setting at 60, the race showed about 45 uneven frames
+  per second while the counter said 60 (issue 8); frames between two game steps now land on their
+  screen refresh and are placed evenly, which also removes a small stutter with MAX.
 
 ## [0.9.0-alpha] — 2026-11-04
 
