@@ -76,7 +76,7 @@ Par rapport au jeu d'origine de 1997 :
   des gerbes d'eau sous les roues.
 - **Packs de textures** (moteur 3D) : un pack se pose dans le dossier `packs` du jeu et se choisit
   dans les options graphiques (ligne TEXTURES). Il remplace les textures des voitures, du décor et des
-  effets, l'interface de la course et les menus, à n'importe quelle résolution ; ce qu'il ne contient pas reste
+  effets, l'interface de la course, les menus et les écrans de chargement, à n'importe quelle résolution ; ce qu'il ne contient pas reste
   d'origine. Aucun pack n'est fourni.
 - **Roues rondes** (option) : les roues des voitures deviennent rondes et tournent en roulant.
 - **Lumière, lune et reflets** en 3D : une lumière qui suit la hauteur du soleil, des ombres

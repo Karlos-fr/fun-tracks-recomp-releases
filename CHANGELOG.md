@@ -43,7 +43,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   of the HD font are see-through around them). A page can also be given one texture at a time
   (`LEVELS/Canada/CANADA.TEX/05/0_128_64_64.png`, a 64 × 64 texture of page 5), the cells of the 3dfx
   scenery under the place they come from in the `.TFX` file; a texture the game rewrites (animated
-  water) stays original. Pack pages are compressed by the graphics card (BC3, 4096 × 4096 pages at a
+  water) stays original. The track loading screen is drawn by the graphics card too, with the track
+  picture of the pack (`LEVELS/Canada/CANADA.PIC/0_0_320_200.png`) under the HD capsules, texts and
+  frame. Pack pages are compressed by the graphics card (BC3, 4096 × 4096 pages at a
   quarter of the memory) and kept in `packs/<name>/.cache`, so later launches read them back instead of
   decoding the images. `tools/dump_textures.py` and `tools/dump_interface.py` write the
   original images under these names, and `tools/make_pack.py` builds a pack from page images or from

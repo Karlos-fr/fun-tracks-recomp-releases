@@ -77,7 +77,7 @@ Respecto al juego original de 1997:
   salpicaduras de agua bajo las ruedas.
 - **Paquetes de texturas** (motor 3D): un paquete se pone en la carpeta `packs` del juego y se elige
   en las opciones gráficas (línea TEXTURAS). Sustituye las texturas de los coches, del escenario y de
-  los efectos, la interfaz de carrera y los menús, en cualquier resolución; lo que falta queda original. No se
+  los efectos, la interfaz de carrera, los menús y las pantallas de carga, en cualquier resolución; lo que falta queda original. No se
   incluye ningún paquete.
 - **Ruedas redondas** (opción): las ruedas de los coches se vuelven redondas y giran al rodar.
 - **Luz, luna y reflejos** en 3D: una luz que sigue la altura del sol, sombras en dos niveles,
