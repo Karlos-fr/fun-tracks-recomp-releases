@@ -14,6 +14,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   water nor moving objects) are cut and bulged, without cracks between the sections of the track, in
   races and in the menus. The slider sets which edges get rounded: higher values round sharper edges
   too. It costs about 10 % of the frame rate.
+- Graphics options: CAMERA SHAKE (3D renderer), a strength slider, off by default. The camera shakes
+  when the player's car takes a shock (crash, jump landing, big bump), more for a bigger shock; in
+  split screen, each view follows its own player. The race itself does not change.
 
 ### Fixed
 
