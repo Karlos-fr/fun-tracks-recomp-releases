@@ -2,6 +2,19 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
+## [Unreleased]
+
+### Added
+
+- Graphics options: SMOOTH SURFACES (3D renderer, with the dynamic lighting). Light changes smoothly
+  from one face to the next instead of showing the facets of the scenery, while sharp edges stay sharp.
+  The normals are computed over the whole track at once, so no step of light remains between its
+  sections.
+- Graphics options: ROUNDED SHAPES (3D renderer), a slider. The faces of the scenery (not the road,
+  water nor moving objects) are cut and bulged, without cracks between the sections of the track, in
+  races and in the menus. The slider sets which edges get rounded: higher values round sharper edges
+  too. It costs about 10 % of the frame rate.
+
 ## [0.9.0-alpha] — 2026-11-04
 
 Ninth alpha release: every edition of the game (Fun Tracks, Ignition, Bleifuss Fun; CD, CD image,
