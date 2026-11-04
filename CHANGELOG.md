@@ -15,6 +15,11 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   races and in the menus. The slider sets which edges get rounded: higher values round sharper edges
   too. It costs about 10 % of the frame rate.
 
+### Fixed
+
+- 3D renderer: trees, the start banner, fences and the other cut-out objects now cast shadows, shaped
+  like their picture.
+
 ## [0.9.0-alpha] — 2026-11-04
 
 Ninth alpha release: every edition of the game (Fun Tracks, Ignition, Bleifuss Fun; CD, CD image,
