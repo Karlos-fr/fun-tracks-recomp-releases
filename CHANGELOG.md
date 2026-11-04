@@ -63,6 +63,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - 3D renderer: the lightning of the Moosejaw Falls storm shows again. Its bolt was never handed to
   the 3D renderer, which skipped it.
 - 3D renderer: a crushed car stays visible, flattened, instead of vanishing.
+- 3D renderer: flashing beacons shine by day and at night. Their flash keeps a halo by day; at night
+  it glows instead of making a dark disc, and the beacons (like the start banner and smoke) are lit by
+  headlights and lamps instead of staying black.
 - HD menu letters sit a little lower in their capsules instead of touching the top, and the Q stands on
   the same line as the other letters.
 - 3D renderer with HD textures: pack images now follow the palette effects of the game, the flash of
