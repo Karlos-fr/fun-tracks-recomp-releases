@@ -60,6 +60,8 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Fixed
 
+- 3D renderer: sun shadow edges are smooth instead of showing stair steps, with or without soft
+  shadows; the car previews of the menus are anti-aliased too (FXAA or MSAA).
 - GOG, Steam and other DOS installations: the game no longer stops on a missing `Default.psq` (issue
   10); it reads the Windows files from the CD image, or the DOS ones.
 - 3D renderer: the 3DFX EFFECTS and SCENERY lines are greyed out when the 3dfx patch files (`.TFX`)
