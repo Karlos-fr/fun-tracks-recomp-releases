@@ -60,6 +60,12 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 
 ### Fixed
 
+- 3D renderer: the lightning of the Moosejaw Falls storm shows again. Its bolt was never handed to
+  the 3D renderer, which skipped it.
+- 3D renderer with HD textures: pack images now follow the palette effects of the game, the flash of
+  a lightning bolt and the darker colours of the rain zone, as the original textures do.
+- 3D renderer with HD textures: the start banner of Moosejaw Falls (a face with see-through parts)
+  takes its pack image; such faces used the original texture.
 - 3D renderer: sun shadow edges are smooth instead of showing stair steps, with or without soft
   shadows; the car previews of the menus are anti-aliased too (FXAA or MSAA).
 - GOG, Steam and other DOS installations: the game no longer stops on a missing `Default.psq` (issue
