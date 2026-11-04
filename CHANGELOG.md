@@ -24,6 +24,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   image.
 - READMEs: a table of the supported editions and installations (CD, CD image, GOG, Steam, DOS-only),
   with what has been checked.
+- Linux for PCs (x86_64), test build: `FunTracks-X.Y.Z-alpha-linux-x64.tar.gz`. Unpack it into the folder
+  of the game files (or next to a CD image) and run `FunTracks.sh`. It needs glibc 2.35 or newer; the 3D
+  engine uses Vulkan, and without a Vulkan driver the game falls back to the original renderer.
 - READMEs: an install chapter for the Linux ARM64 test build (PortMaster handhelds). The test build in
   `testing/linux-portmaster` is updated with every edition supported; its launcher also accepts a CD
   image in `gamedata/`.
