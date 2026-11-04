@@ -2,7 +2,11 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased]
+## [0.9.0-alpha] — 2026-11-04
+
+Ninth alpha release: every edition of the game (Fun Tracks, Ignition, Bleifuss Fun; CD, CD image,
+GOG and Steam), texture packs made of real artwork, larger menus, car suspension in 3D, Linux test
+builds for PCs and for PortMaster handhelds, and many 3D fixes (lightning, beacons, shadows).
 
 ### Added
 
@@ -20,16 +24,22 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   `game.gog`), or directly from an image of the game CD (`.cue` with its `.bin`, or `.iso`). Ignition
   keeps its records in `ign_win.btz`, as the original did. Checked on four CDs and on GOG: races
   look the same, pixel for pixel, in every edition. Steam is not tested on a real installation yet.
+- HD texture pack, a separate download: `FunTracks-hd-pack-0.1.0-alpha.zip` (unzip it into the game
+  folder, then GRAPHICS OPTIONS → TEXTURES). Partial: race HUD and its fonts, signs and start lights,
+  menu logo, capsules and font, car cards, loading screens, car textures and the first track, Moosejaw
+  Falls. Its README gives its version and the fonts its letters are drawn from. How to make other
+  packs: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (draft).
 - Music can also be played from WAV files (`Music/trackNN.wav`) or from the audio tracks of a CD
   image.
 - READMEs: a table of the supported editions and installations (CD, CD image, GOG, Steam, DOS-only),
   with what has been checked.
-- Linux for PCs (x86_64), test build: `FunTracks-X.Y.Z-alpha-linux-x64.tar.gz`. Unpack it into the folder
+- Linux for PCs (x86_64), test build: `FunTracks-0.9.0-alpha-linux-x64.tar.gz`. Unpack it into the folder
   of the game files (or next to a CD image) and run `FunTracks.sh`. It needs glibc 2.35 or newer; the 3D
   engine uses Vulkan, and without a Vulkan driver the game falls back to the original renderer.
-- READMEs: an install chapter for the Linux ARM64 test build (PortMaster handhelds). The test build in
-  `testing/linux-portmaster` is updated with every edition supported; its launcher also accepts a CD
-  image in `gamedata/`.
+- Linux ARM64 for PortMaster handhelds, test build, now attached to the release:
+  `FunTracks-0.9.0-alpha-linux-arm64-portmaster.zip`; the `testing` folder of this repository is gone. It
+  supports every edition; its launcher also accepts a CD image in
+  `gamedata/`. READMEs: an install chapter for both Linux builds.
 
 ### Changed
 
@@ -60,6 +70,16 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - The HD texture packs the game made by itself on first launch (`textures_hd`), the HD 2X / HD 4X
   values of the TEXTURES line and `tools/upscale_textures.py`: a pack is now real artwork, chosen by
   the player. The old `textures_hd` folder can be deleted.
+
+### Known limitations
+
+- Linux: both builds are test versions. The PC build was only tried under WSL (Windows Subsystem for
+  Linux), the PortMaster build not yet on a real handheld.
+- Steam: not yet tested on a real installation.
+- The HD pack covers the interface, the cars and Moosejaw Falls only: the other tracks keep their
+  original textures.
+- Network game tested between a PC and an Android console on the same Wi-Fi network, not yet
+  between two PCs nor over the Internet with real players.
 
 ### Fixed
 
@@ -538,6 +558,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.9.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.9.0-alpha
 [0.8.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.8.0-alpha
 [0.7.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.7.0-alpha
 [0.6.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.6.0-alpha

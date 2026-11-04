@@ -24,7 +24,7 @@ Fun Tracks (1997) is a top-down racing game with small toy cars on dirt tracks, 
 canyons. This project rebuilds the original Windows game from its decompiled C code, so it runs
 natively on today's systems.
 
-This repository only hosts the **releases** (Windows 64-bit and Android). Current version:
+This repository only hosts the **releases** (Windows 64-bit, Android and Linux). Current version:
 **alpha** — expect bugs.
 
 ## How this recompilation was made
@@ -71,7 +71,8 @@ Compared with the original 1997 game:
   rain that reflect it and ripple when cars drive through, and water splashes from the wheels.
 - **Texture packs** (3D renderer): put a pack in the `packs` folder of the game and choose it in the
   graphics options (TEXTURES line). A pack replaces the textures of the cars, scenery and effects, the
-  race HUD, the menus and the loading screens, at any resolution; whatever it lacks stays original. No pack is included.
+  race HUD, the menus and the loading screens, at any resolution; whatever it lacks stays original. An **HD pack** is a separate download (`FunTracks-hd-pack-….zip`, partial: interface,
+  cars and the first track); to make your own: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (draft).
 - **Round wheels** (option): the cars' wheels become round and roll with the car.
 - **Light, moon and reflections** in 3D: light that follows the height of the sun, two-level
   shadows, a moon with its phases, car paint and windows that reflect the sky, seas and rivers
@@ -82,7 +83,10 @@ Compared with the original 1997 game:
   RATE), while the race keeps the 36 steps per second of 1997 and adds no input delay.
 - **Modern controller**: progressive stick and triggers, every action can be remapped in the
   player settings.
-- **Linux**: a test build for handhelds with PortMaster.
+- **Linux**: test builds for PCs (x86_64) and for handhelds with PortMaster.
+- **Larger menus** (MENU SIZE): 1.25 or 1.5 times bigger, easier to read on large screens.
+- **Suspension** in 3D (SUSPENSION): car bodies lean in curves, dip under braking and lift
+  when accelerating.
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 
@@ -147,14 +151,26 @@ back, X turbo, LB / RB gears, Y rear view, d-pad up headlights, Start pause. But
 settings page.
 In races, the right trigger accelerates and the left trigger brakes, progressively.
 
+## Install — Linux x86_64 (PC, test build)
+
+Requirements: a 64-bit PC Linux with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36
+or later); a Vulkan driver for the 3D renderer. **Test build**: only tried under WSL so far,
+please report how it runs.
+
+1. Download `FunTracks-…-linux-x64.tar.gz` from the [Releases](../../releases) page.
+2. Unpack it into your Fun Tracks game folder (or next to the CD image):
+   `tar -xzf FunTracks-…-linux-x64.tar.gz -C <game folder>`.
+3. Run `FunTracks.sh`.
+
+Without a Vulkan driver, the game goes back to the original 2D renderer by itself.
+
 ## Install — Linux ARM64 (PortMaster, test build)
 
 Requirements: a 64-bit ARM Linux handheld with PortMaster (Knulli, muOS, ROCKNIX, ArkOS/dArkOS,
 AmberELEC…). **Test build**: not yet tested on real devices, please report in [issue
 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
 
-1. Download `FunTracks-…-linux-arm64-portmaster.zip` from the [Releases](../../releases) page
-   (until the next release: [`funtracks.zip`](testing/linux-portmaster/funtracks.zip)) and extract
+1. Download `FunTracks-…-linux-arm64-portmaster.zip` from the [Releases](../../releases) page and extract
    it into the ports folder of your system (usually `roms/ports/`): you get `Fun Tracks.sh` and
    `funtracks/`.
 2. Copy **the content** of your game folder (any supported edition, or the CD image) into
@@ -164,7 +180,7 @@ AmberELEC…). **Test build**: not yet tested on real devices, please report in 
 
 The port starts with the original 2D renderer; the 3D renderer needs Vulkan and Wayland on the
 device. Gamepad as on Android; Select + Start quits. Messages are written to
-`ports/funtracks/log.txt`. More details: [testing/linux-portmaster](testing/linux-portmaster).
+`ports/funtracks/log.txt`.
 
 ## Known limitations (alpha)
 
@@ -174,5 +190,5 @@ device. Gamepad as on Android; Select + Start quits. Messages are written to
 - Puddles, splashes, atmosphere and reflections not yet tested with a gamepad on an Android
   console.
 - The automatic update starts with 0.7.0: install it by hand over an older version.
-- Frame rates above 60 not yet measured on 120 and 144 Hz screens; the Linux build is a test
-  version.
+- Frame rates above 60 not yet measured on 120 and 144 Hz screens; the Linux builds are test
+  versions (the PC build was only tried under WSL).

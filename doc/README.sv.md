@@ -24,7 +24,7 @@ Fun Tracks (1997) är ett racingspel sett uppifrån, med små leksaksbilar på g
 majsfält och kanjoner. Det här projektet bygger upp det ursprungliga Windows-spelet igen från
 dess dekompilerade C-kod, så att det körs direkt på dagens system.
 
-Det här repot innehåller bara **utgåvorna** (Windows 64-bitars och Android). Nuvarande version:
+Det här repot innehåller bara **utgåvorna** (Windows 64-bitars, Android och Linux). Nuvarande version:
 **alfa** — räkna med buggar.
 
 ## Så gjordes omkompileringen
@@ -74,8 +74,9 @@ Jämfört med originalspelet från 1997:
   tillagt regn som speglar den och krusas när bilarna kör igenom, och vattenstänk under hjulen.
 - **Texturpaket** (3D-renderaren): ett paket läggs i spelets mapp `packs` och väljs i
   grafikinställningarna (raden TEXTURER). Det ersätter bilarnas, banans och effekternas texturer samt
-  racegränssnittet, menyerna och laddningsskärmarna, i vilken upplösning som helst; det som saknas förblir original. Inga paket
-  medföljer.
+  racegränssnittet, menyerna och laddningsskärmarna, i vilken upplösning som helst; det som saknas förblir original. Ett
+  **HD-paket** finns som separat nedladdning (`FunTracks-hd-pack-….zip`, ofullständigt: gränssnitt,
+  bilar och första banan); gör ditt eget: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (utkast, på engelska).
 - **Runda hjul** (tillval): bilarnas hjul blir runda och rullar med bilen.
 - **Ljus, måne och reflexer** i 3D: ljus som följer solens höjd, skuggor i två nivåer, en måne
   med sina faser, lack och rutor som speglar himlen, hav och floder som beter sig som vatten, och
@@ -87,7 +88,11 @@ Jämfört med originalspelet från 1997:
   kontrollerna.
 - **Modern handkontroll**: stegslös spak och avtryckare, varje funktion kan ändras i
   spelarinställningarna.
-- **Linux**: en testversion för handhållna konsoler med PortMaster.
+- **Linux**: testversioner för PC (x86_64) och för handhållna konsoler med PortMaster.
+- **Större menyer** (MENYSTORLEK): 1,25 eller 1,5 gånger större, lättare att läsa på stora
+  skärmar.
+- **Fjädring** i 3D (FJÄDRING): karossen lutar i kurvor, dyker vid inbromsning och lyfter vid
+  acceleration.
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
@@ -155,6 +160,20 @@ bekräfta, B för att bromsa eller gå tillbaka, X turbo, LB / RB växlar, Y bac
 Knapparna kan ändras på spelets sida för kontroller.
 I loppet gasar höger avtryckare och vänster bromsar, stegslöst.
 
+## Installation — Linux x86_64 (PC, testversion)
+
+Krav: en 64-bitars PC med Linux och glibc 2.35 eller nyare (Ubuntu 22.04, Debian 12, Fedora 36
+eller senare); en Vulkan-drivrutin för 3D-renderaren. **Testversion**: hittills bara provad i
+WSL, berätta gärna hur den fungerar.
+
+1. Ladda ner `FunTracks-…-linux-x64.tar.gz` från sidan
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases).
+2. Packa upp den i Fun Tracks-spelmappen (eller bredvid cd-avbilden):
+   `tar -xzf FunTracks-…-linux-x64.tar.gz -C <spelmapp>`.
+3. Starta `FunTracks.sh`.
+
+Utan Vulkan-drivrutin går spelet själv tillbaka till den ursprungliga 2D-renderaren.
+
 ## Installation — Linux ARM64 (PortMaster, testversion)
 
 Krav: en handhållen Linux-konsol med 64-bitars ARM och PortMaster (Knulli, muOS, ROCKNIX,
@@ -162,8 +181,7 @@ ArkOS/dArkOS, AmberELEC…). **Testversion**: ännu inte provad på riktiga enhe
 i [issue 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
 
 1. Ladda ner `FunTracks-…-linux-arm64-portmaster.zip` från sidan
-   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) (fram till nästa
-   release: [`funtracks.zip`](../testing/linux-portmaster/funtracks.zip)) och packa upp den i
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) och packa upp den i
    systemets ports-mapp (oftast `roms/ports/`): du får `Fun Tracks.sh` och `funtracks/`.
 2. Kopiera **innehållet** i din spelmapp (vilken utgåva som helst som stöds, eller cd-avbilden)
    till `ports/funtracks/gamedata/`.
@@ -171,8 +189,7 @@ i [issue 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
 
 Porten startar med den ursprungliga 2D-renderaren; 3D-renderaren kräver Vulkan och Wayland på
 enheten. Handkontroll som på Android; Select + Start avslutar. Meddelanden skrivs till
-`ports/funtracks/log.txt`. Mer information:
-[testing/linux-portmaster](../testing/linux-portmaster).
+`ports/funtracks/log.txt`.
 
 ## Kända begränsningar (alfa)
 
@@ -181,5 +198,5 @@ enheten. Handkontroll som på Android; Select + Start avslutar. Meddelanden skri
 - Flerspelarläge på samma skärm ännu inte testat på Android.
 - Pölar, stänk, atmosfär och reflexer ännu inte testade med handkontroll på en Android-konsol.
 - Den automatiska uppdateringen börjar med 0.7.0: installera den för hand över en äldre version.
-- Bildfrekvenser över 60 är ännu inte uppmätta på skärmar med 120 och 144 Hz; Linux-versionen är
-  en testversion.
+- Bildfrekvenser över 60 är ännu inte uppmätta på skärmar med 120 och 144 Hz; Linux-versionerna är
+  testversioner (PC-versionen har bara provats i WSL).

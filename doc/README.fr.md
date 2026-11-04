@@ -25,7 +25,7 @@ pistes de terre, dans les champs de maïs et les canyons. Ce projet reconstruit 
 d'origine à partir de son code C décompilé, pour qu'il tourne nativement sur les systèmes
 actuels.
 
-Ce dépôt héberge seulement les **versions publiées** (Windows 64 bits et Android). Version
+Ce dépôt héberge seulement les **versions publiées** (Windows 64 bits, Android et Linux). Version
 actuelle : **alpha** — des bugs sont à prévoir.
 
 ## Comment cette recompilation a été faite
@@ -77,7 +77,9 @@ Par rapport au jeu d'origine de 1997 :
 - **Packs de textures** (moteur 3D) : un pack se pose dans le dossier `packs` du jeu et se choisit
   dans les options graphiques (ligne TEXTURES). Il remplace les textures des voitures, du décor et des
   effets, l'interface de la course, les menus et les écrans de chargement, à n'importe quelle résolution ; ce qu'il ne contient pas reste
-  d'origine. Aucun pack n'est fourni.
+  d'origine. Un **pack HD** est proposé à part (`FunTracks-hd-pack-….zip`, partiel :
+  interface, voitures et premier circuit) ; pour faire le vôtre :
+  [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (brouillon, en anglais).
 - **Roues rondes** (option) : les roues des voitures deviennent rondes et tournent en roulant.
 - **Lumière, lune et reflets** en 3D : une lumière qui suit la hauteur du soleil, des ombres
   sur deux niveaux, une lune et ses phases, des carrosseries et des vitres qui reflètent le ciel,
@@ -89,7 +91,12 @@ Par rapport au jeu d'origine de 1997 :
   (IMAGES/SECONDE), la course gardant les 36 pas par seconde de 1997, sans retard des commandes.
 - **Manette moderne** : stick et gâchettes progressifs, chaque action se règle dans les réglages
   des joueurs.
-- **Linux** : une version d'essai pour les consoles portables avec PortMaster.
+- **Linux** : des versions d'essai pour PC (x86_64) et pour les consoles portables avec
+  PortMaster.
+- **Menus plus grands** (TAILLE MENUS) : 1,25 ou 1,5 fois plus grands, plus lisibles sur grand
+  écran.
+- **Suspension** en 3D (SUSPENSION) : la carrosserie penche dans les virages, plonge au freinage
+  et se cabre à l'accélération.
 - **Musique du CD** jouée depuis des fichiers OGG.
 - **La même physique partout** : les courses donnent exactement les mêmes calculs sur toutes les
   plateformes.
@@ -158,6 +165,20 @@ B pour freiner ou revenir, X turbo, LB / RB vitesses, Y vue arrière, croix haut
 changent dans la page des touches du jeu.
 En course, la gâchette droite accélère et la gauche freine, progressivement.
 
+## Installation — Linux x86_64 (PC, version d'essai)
+
+Configuration : un PC Linux 64 bits avec la glibc 2.35 ou plus récente (Ubuntu 22.04, Debian 12,
+Fedora 36 ou plus récents) ; un pilote Vulkan pour le moteur 3D. **Version d'essai** : essayée
+seulement sous WSL pour l'instant, merci de dire comment elle tourne.
+
+1. Téléchargez `FunTracks-…-linux-x64.tar.gz` sur la page
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases).
+2. Décompressez-le dans le dossier du jeu Fun Tracks (ou à côté de l'image du CD) :
+   `tar -xzf FunTracks-…-linux-x64.tar.gz -C <dossier du jeu>`.
+3. Lancez `FunTracks.sh`.
+
+Sans pilote Vulkan, le jeu revient de lui-même au moteur 2D d'origine.
+
 ## Installation — Linux ARM64 (PortMaster, version d'essai)
 
 Configuration : une console portable Linux ARM 64 bits avec PortMaster (Knulli, muOS, ROCKNIX,
@@ -166,8 +187,7 @@ de rendre compte dans l'[issue
 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9).
 
 1. Téléchargez `FunTracks-…-linux-arm64-portmaster.zip` sur la page
-   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) (d'ici la
-   prochaine release : [`funtracks.zip`](../testing/linux-portmaster/funtracks.zip)) et
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) et
    extrayez-le dans le dossier des ports de votre système (en général `roms/ports/`) : vous
    obtenez `Fun Tracks.sh` et `funtracks/`.
 2. Copiez **le contenu** de votre dossier du jeu (n'importe quelle édition prise en charge, ou
@@ -177,8 +197,7 @@ de rendre compte dans l'[issue
 
 Le port démarre avec le rendu 2D d'origine ; le rendu 3D demande Vulkan et Wayland sur la console.
 Manette comme sur Android ; Select + Start quitte. Les messages sont écrits dans
-`ports/funtracks/log.txt`. Plus de détails :
-[testing/linux-portmaster](../testing/linux-portmaster).
+`ports/funtracks/log.txt`.
 
 ## Limites connues (alpha)
 
@@ -190,4 +209,4 @@ Manette comme sur Android ; Select + Start quitte. Les messages sont écrits dan
 - La mise à jour automatique commence avec la 0.7.0 : l'installer à la main par-dessus une
   version plus ancienne.
 - Les rythmes au-delà de 60 images par seconde ne sont pas encore mesurés sur des écrans 120 et
-  144 Hz ; la version Linux est une version d'essai.
+  144 Hz ; les versions Linux sont des versions d'essai (celle pour PC n'a été essayée que sous WSL).

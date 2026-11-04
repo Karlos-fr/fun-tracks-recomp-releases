@@ -24,7 +24,7 @@ Fun Tracks (1997) ist ein Rennspiel aus der Vogelperspektive mit kleinen Spielze
 Feldwegen, in Maisfeldern und Canyons. Dieses Projekt baut das ursprüngliche Windows-Spiel aus
 seinem dekompilierten C-Code neu auf, damit es nativ auf heutigen Systemen läuft.
 
-Dieses Repository enthält nur die **Veröffentlichungen** (Windows 64-Bit und Android). Aktuelle
+Dieses Repository enthält nur die **Veröffentlichungen** (Windows 64-Bit, Android und Linux). Aktuelle
 Version: **Alpha** — mit Fehlern ist zu rechnen.
 
 ## Wie diese Neukompilierung entstand
@@ -76,8 +76,9 @@ Im Vergleich zum Originalspiel von 1997:
   hindurchfahren, und Wasserfontänen unter den Rädern.
 - **Texturpakete** (3D-Renderer): ein Paket kommt in den Ordner `packs` des Spiels und wird in den
   Grafikoptionen gewählt (Zeile TEXTUREN). Es ersetzt die Texturen der Autos, der Strecke und der
-  Effekte sowie die Rennanzeige, die Menüs und die Ladebildschirme, in jeder Auflösung; was fehlt, bleibt original. Es sind keine Pakete
-  enthalten.
+  Effekte sowie die Rennanzeige, die Menüs und die Ladebildschirme, in jeder Auflösung; was fehlt, bleibt original. Ein **HD-Paket** gibt es als eigenen Download
+  (`FunTracks-hd-pack-….zip`, unvollständig: Oberfläche, Autos und erste Strecke); eigene Pakete:
+  [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (Entwurf, auf Englisch).
 - **Runde Räder** (Option): die Räder der Autos werden rund und drehen sich beim Fahren.
 - **Licht, Mond und Spiegelungen** in 3D: Licht, das dem Sonnenstand folgt, Schatten in zwei
   Stufen, ein Mond mit seinen Phasen, Lack und Scheiben, die den Himmel spiegeln, Meere und
@@ -90,7 +91,11 @@ Im Vergleich zum Originalspiel von 1997:
   Eingabeverzögerung.
 - **Moderner Controller**: Stick und Trigger stufenlos, jede Aktion in den Spielereinstellungen
   frei belegbar.
-- **Linux**: eine Testversion für Handhelds mit PortMaster.
+- **Linux**: Testversionen für PCs (x86_64) und für Handhelds mit PortMaster.
+- **Größere Menüs** (MENÜGRÖSSE): 1,25- oder 1,5-mal größer, auf großen Bildschirmen besser
+  lesbar.
+- **Federung** in 3D (FEDERUNG): die Karosserie neigt sich in Kurven, taucht beim Bremsen ein
+  und hebt sich beim Beschleunigen.
 - **CD-Musik** aus OGG-Dateien.
 - **Überall dieselbe Physik**: Rennen rechnen auf jeder Plattform exakt gleich.
 
@@ -157,6 +162,20 @@ B zum Bremsen oder Zurückgehen, X Turbo, LB / RB Gänge, Y Rückansicht, Steuer
 lassen sich auf der Tastenseite des Spiels ändern.
 Im Rennen beschleunigt der rechte Trigger und der linke bremst, stufenlos.
 
+## Installation — Linux x86_64 (PC, Testversion)
+
+Voraussetzungen: ein 64-Bit-PC mit Linux und glibc 2.35 oder neuer (Ubuntu 22.04, Debian 12,
+Fedora 36 oder neuer); ein Vulkan-Treiber für den 3D-Renderer. **Testversion**: bisher nur unter
+WSL ausprobiert, bitte berichte, wie sie läuft.
+
+1. Lade `FunTracks-…-linux-x64.tar.gz` von der Seite
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) herunter.
+2. Entpacke es in deinen Fun-Tracks-Spielordner (oder neben das CD-Abbild):
+   `tar -xzf FunTracks-…-linux-x64.tar.gz -C <Spielordner>`.
+3. Starte `FunTracks.sh`.
+
+Ohne Vulkan-Treiber wechselt das Spiel von selbst zum ursprünglichen 2D-Renderer.
+
 ## Installation — Linux ARM64 (PortMaster, Testversion)
 
 Voraussetzungen: ein Linux-Handheld mit 64-Bit-ARM und PortMaster (Knulli, muOS, ROCKNIX,
@@ -164,8 +183,7 @@ ArkOS/dArkOS, AmberELEC…). **Testversion**: noch nicht auf echten Geräten get
 [Issue 9](https://github.com/Karlos-fr/fun-tracks-recomp-releases/issues/9) berichten.
 
 1. Lade `FunTracks-…-linux-arm64-portmaster.zip` von der Seite
-   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) herunter (bis zum
-   nächsten Release: [`funtracks.zip`](../testing/linux-portmaster/funtracks.zip)) und entpacke es
+   [Releases](https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases) herunter und entpacke es
    in den Ports-Ordner deines Systems (meist `roms/ports/`): Du erhältst `Fun Tracks.sh` und
    `funtracks/`.
 2. Kopiere **den Inhalt** deines Spielordners (jede unterstützte Ausgabe, oder das CD-Abbild) nach
@@ -175,7 +193,7 @@ ArkOS/dArkOS, AmberELEC…). **Testversion**: noch nicht auf echten Geräten get
 
 Der Port startet mit dem ursprünglichen 2D-Renderer; der 3D-Renderer braucht Vulkan und Wayland
 auf dem Gerät. Gamepad wie unter Android; Select + Start beendet. Meldungen landen in
-`ports/funtracks/log.txt`. Mehr Details: [testing/linux-portmaster](../testing/linux-portmaster).
+`ports/funtracks/log.txt`.
 
 ## Bekannte Einschränkungen (Alpha)
 
@@ -186,5 +204,5 @@ auf dem Gerät. Gamepad wie unter Android; Select + Start beendet. Meldungen lan
   Android-Konsole getestet.
 - Die automatische Aktualisierung beginnt mit 0.7.0: diese Version von Hand über eine ältere
   installieren.
-- Bildraten über 60 noch nicht auf 120- und 144-Hz-Bildschirmen gemessen; die Linux-Version ist
-  eine Testversion.
+- Bildraten über 60 noch nicht auf 120- und 144-Hz-Bildschirmen gemessen; die Linux-Versionen sind
+  Testversionen (die PC-Version wurde nur unter WSL ausprobiert).
