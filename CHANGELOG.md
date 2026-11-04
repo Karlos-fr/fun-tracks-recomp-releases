@@ -37,7 +37,9 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   original; whatever a pack lacks stays original. It covers the textures of the cars, scenery and
   effects, and the race HUD: a block of a picture sheet (`H_pan1.pic/0_72_157_130.png`, the rev
   counter) or a letter of a font (`fonts/POS_H.LFT/0036.png`); see-through glass on the counters stays
-  see-through. The menus come next. `tools/dump_textures.py` and `tools/dump_interface.py` write the
+  see-through. In the menus (with the background race), the capsules become whole HD pills from
+  `MenuBkg.dat/capsule.png` and `capsule_bleu.png`, drawn at screen resolution with the texts over
+  them; settings pages and menu fonts come next. `tools/dump_textures.py` and `tools/dump_interface.py` write the
   original images under these names, and `tools/make_pack.py` builds a pack from page images or from
   single interface elements.
 
