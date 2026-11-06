@@ -17,8 +17,22 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Graphics options: CAMERA SHAKE (3D renderer), a strength slider, off by default. The camera shakes
   when the player's car takes a shock (crash, jump landing, big bump), more for a bigger shock; in
   split screen, each view follows its own player. The race itself does not change.
+- HD texture pack: textures of three more tracks (Gold Rush, Snake Island and Lost Ruins), the race
+  effects (sparks, police lights, dust, smoke, explosions), the dashboards for two and more players,
+  the championship cups and the car medallions.
 
 ### Fixed
+
+- CD images: with the game played from a `.cue`/`.bin` or `.iso` image, there were no sound effects
+  and no sound in the intro, while the music played (issue 12). The sound folders inside the image
+  are now found.
+- HD texture pack: the pause menu, the quit prompt and the race results and score screens kept HD
+  capsules, letters and car icons of the previous screen underneath the new ones (overlapping menus,
+  black squares around the car icons), and after a while some menu capsules showed no text (issue 13).
+- HD texture pack: the speed digits touched the edge of their window and the needle hub was too small
+  (issue 13); the speedometers now match the original dials.
+- HD texture pack: on Lost Ruins, the jungle foliage and the waterfall mist would show gold and red
+  patches instead of green leaves and white mist; sparks and police lights keep their glow and colours.
 
 - 3D renderer: trees, the start banner, fences and the other cut-out objects now cast shadows, shaped
   like their picture.
