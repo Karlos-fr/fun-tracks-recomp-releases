@@ -77,8 +77,8 @@ Rispetto al gioco originale del 1997:
 - **Pacchetti di texture** (motore 3D): un pacchetto va nella cartella `packs` del gioco e si
   sceglie nelle opzioni grafiche (riga TEXTURE). Sostituisce le texture delle auto, del paesaggio e
   degli effetti, l'interfaccia di gara, i menu e le schermate di caricamento, a qualsiasi risoluzione; ciò che manca resta originale.
-  Un **pacchetto HD** è proposto a parte (`FunTracks-hd-pack-….zip`, parziale: interfaccia, auto e
-  primo circuito); per farne uno: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (bozza, in inglese).
+  Un **pacchetto HD** è proposto a parte (`FunTracks-hd-pack-….zip`, interfaccia, auto e
+  tutti e sette i circuiti); per farne uno: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (bozza, in inglese).
 - **Ruote rotonde** (opzione): le ruote delle auto diventano rotonde e girano mentre l'auto
   corre.
 - **Luce, luna e riflessi** in 3D: una luce che segue l'altezza del sole, ombre su due livelli,
@@ -96,6 +96,8 @@ Rispetto al gioco originale del 1997:
   grandi.
 - **Sospensioni** in 3D (SOSPENSIONI): la carrozzeria si inclina in curva, si abbassa in frenata
   e si alza in accelerazione.
+- **Scenario più morbido** in 3D: SUPERFICI LISCE (luce senza sfaccettature), FORME ARROTONDATE
+  (spigoli arrotondati) e SCOSSE CAMERA (la telecamera trema quando l'auto subisce un urto).
 - **Musica del CD** riprodotta da file OGG.
 - **La stessa fisica ovunque**: le gare danno esattamente gli stessi calcoli su ogni piattaforma.
 

@@ -71,8 +71,8 @@ Compared with the original 1997 game:
   rain that reflect it and ripple when cars drive through, and water splashes from the wheels.
 - **Texture packs** (3D renderer): put a pack in the `packs` folder of the game and choose it in the
   graphics options (TEXTURES line). A pack replaces the textures of the cars, scenery and effects, the
-  race HUD, the menus and the loading screens, at any resolution; whatever it lacks stays original. An **HD pack** is a separate download (`FunTracks-hd-pack-….zip`, partial: interface,
-  cars and the first track); to make your own: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (draft).
+  race HUD, the menus and the loading screens, at any resolution; whatever it lacks stays original. An **HD pack** is a separate download (`FunTracks-hd-pack-….zip`, interface, cars and
+  all seven tracks); to make your own: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (draft).
 - **Round wheels** (option): the cars' wheels become round and roll with the car.
 - **Light, moon and reflections** in 3D: light that follows the height of the sun, two-level
   shadows, a moon with its phases, car paint and windows that reflect the sky, seas and rivers
@@ -87,6 +87,8 @@ Compared with the original 1997 game:
 - **Larger menus** (MENU SIZE): 1.25 or 1.5 times bigger, easier to read on large screens.
 - **Suspension** in 3D (SUSPENSION): car bodies lean in curves, dip under braking and lift
   when accelerating.
+- **Smoother scenery** in 3D: SMOOTH SURFACES (light without facets), ROUNDED SHAPES (rounded
+  edges) and CAMERA SHAKE (the camera shakes when the car takes a shock).
 - **CD music** played from OGG files.
 - **Same physics everywhere**: races compute exactly the same on every platform.
 

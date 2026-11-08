@@ -2,7 +2,11 @@
 
 All notable changes to the Fun Tracks recompilation are listed here, newest first.
 
-## [Unreleased]
+## [0.10.0-alpha] — 2026-11-08
+
+Tenth alpha release: the HD texture pack now covers all seven tracks, new 3D options (smooth
+surfaces, rounded shapes, camera shake), shadows of cut-out objects, even frame pacing and sound
+effects from CD images.
 
 ### Added
 
@@ -17,12 +21,28 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
 - Graphics options: CAMERA SHAKE (3D renderer), a strength slider, off by default. The camera shakes
   when the player's car takes a shock (crash, jump landing, big bump), more for a bigger shock; in
   split screen, each view follows its own player. The race itself does not change.
-- HD texture pack: textures of three more tracks (Gold Rush, Snake Island and Lost Ruins), the race
-  effects (sparks, police lights, dust, smoke, explosions), the dashboards for two and more players,
-  the championship cups and the car medallions.
+- HD texture pack 0.2.0-alpha, a separate download in two parts (GitHub limits a file to 2 GB):
+  `FunTracks-hd-pack-0.2.0-alpha-part1.zip` and `-part2.zip`, both unzipped into the game folder.
+  It now covers all seven tracks (Gold Rush, Snake Island, Lost Ruins, Yodel Peaks, Cape Thor and Tokyo Bullet are
+  new), the race effects (sparks, police lights, dust, smoke, explosions), the dashboards for two and
+  more players, the championship cups, the car medallions and the menu track thumbnails: 2,696 of the
+  2,708 images the game cuts from its files.
+
+### Known limitations
+
+- Linux: both builds are test versions. The PC build was only tried under WSL (Windows Subsystem for
+  Linux), the PortMaster build not yet on a real handheld.
+- Steam: not yet tested on a real installation.
+- HD pack: the drifting clouds of Yodel Peaks keep their original texture (redrawn, they looked
+  blocky in the race).
+- Network game tested between a PC and an Android console on the same Wi-Fi network, not yet
+  between two PCs nor over the Internet with real players.
 
 ### Fixed
 
+- PortMaster: when the game does not start, the launcher writes the system, the glibc version, the
+  missing libraries and the exit code to `log.txt`, and the game writes why its window could not open
+  (issue 9). The launcher also restores the execute right of the game, which unzipping can lose.
 - CD images: with the game played from a `.cue`/`.bin` or `.iso` image, there were no sound effects
   and no sound in the intro, while the music played (issue 12). The sound folders inside the image
   are now found.
@@ -33,7 +53,6 @@ All notable changes to the Fun Tracks recompilation are listed here, newest firs
   (issue 13); the speedometers now match the original dials.
 - HD texture pack: on Lost Ruins, the jungle foliage and the waterfall mist would show gold and red
   patches instead of green leaves and white mist; sparks and police lights keep their glow and colours.
-
 - 3D renderer: trees, the start banner, fences and the other cut-out objects now cast shadows, shaped
   like their picture.
 - Frames per second: with the FRAMES PER SECOND setting at 60, the race showed about 45 uneven frames
@@ -596,6 +615,7 @@ First alpha release.
 - No network multiplayer.
 - Android: one player only; game files must be copied to the device by hand.
 
+[0.10.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.10.0-alpha
 [0.9.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.9.0-alpha
 [0.8.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.8.0-alpha
 [0.7.0-alpha]: https://github.com/Karlos-fr/fun-tracks-recomp-releases/releases/tag/v0.7.0-alpha

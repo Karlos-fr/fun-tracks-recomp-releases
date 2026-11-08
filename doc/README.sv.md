@@ -75,8 +75,8 @@ Jämfört med originalspelet från 1997:
 - **Texturpaket** (3D-renderaren): ett paket läggs i spelets mapp `packs` och väljs i
   grafikinställningarna (raden TEXTURER). Det ersätter bilarnas, banans och effekternas texturer samt
   racegränssnittet, menyerna och laddningsskärmarna, i vilken upplösning som helst; det som saknas förblir original. Ett
-  **HD-paket** finns som separat nedladdning (`FunTracks-hd-pack-….zip`, ofullständigt: gränssnitt,
-  bilar och första banan); gör ditt eget: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (utkast, på engelska).
+  **HD-paket** finns som separat nedladdning (`FunTracks-hd-pack-….zip`, gränssnitt,
+  bilar och alla sju banorna); gör ditt eget: [Making a texture pack](https://github.com/Karlos-fr/fun-tracks-recomp-releases/wiki/Making-a-texture-pack) (utkast, på engelska).
 - **Runda hjul** (tillval): bilarnas hjul blir runda och rullar med bilen.
 - **Ljus, måne och reflexer** i 3D: ljus som följer solens höjd, skuggor i två nivåer, en måne
   med sina faser, lack och rutor som speglar himlen, hav och floder som beter sig som vatten, och
@@ -93,6 +93,8 @@ Jämfört med originalspelet från 1997:
   skärmar.
 - **Fjädring** i 3D (FJÄDRING): karossen lutar i kurvor, dyker vid inbromsning och lyfter vid
   acceleration.
+- **Mjukare landskap** i 3D: MJUKA YTOR (ljus utan facetter), RUNDADE FORMER (rundade kanter)
+  och KAMERASKAKNING (kameran skakar när bilen tar en stöt).
 - **CD-musik** spelas upp från OGG-filer.
 - **Samma fysik överallt**: loppen räknar exakt likadant på alla plattformar.
 
