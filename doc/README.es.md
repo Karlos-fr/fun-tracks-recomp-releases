@@ -16,7 +16,7 @@
   <a href="README.fr.md"><img src="../images/flags/flag-fr.svg" alt="" width="18" height="12" /> Français</a>
 </p>
 
-<p align="center"><a href="../images/trailer.mp4"><img src="../images/trailer.jpg" alt="Trailer (1 min 30)" width="760" /></a></p>
+<p align="center"><a href="../video/fun_tracks_recomp_trailer.mp4"><img src="../video/fun_tracks_recomp_trailer.jpg" alt="Trailer (1 min)" width="760" /></a></p>
 
 # Fun Tracks — recompilado
 
